@@ -1,51 +1,71 @@
+.row>* {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.badge {
+  --bs-badge-color: #000000
+}
+
 .node-header, .node-content {  
-    padding: .5em .7rem;  
+    padding: .5em .7rem; 
 }  
-  
-.node-header {  
-    background-color: #495ebb;  
-    color: #ffffff;  
+
+.rel_node_name{
+  font-size: 25px;
+}
+
+.rel_label_name{
+  font-size:25px;
+}
+
+.node-content-red  {  
+    border-radius: 50%;   
+    border: 5px solid #ff0000 !important;  
 }  
-  
-.node-content {  
-    text-align: center;  
-    border: 1px solid #495ebb;  
+.node-content-yellow  {  
+    border-radius: 50%;    
+    border: 5px solid #e5ff00 !important;  
 }  
-  
-.node-content img {  
-    border-radius: 50%;  
+.node-content-green  {  
+    border-radius: 50%;    
+    border: 5px solid #18ce00 !important;  
 }  
-  
-.department-cfo {  
-    background-color: #7247bc;  
-    color: #ffffff;  
-}  
-  
-.department-coo {  
-    background-color: #a534b6;  
-    color: #ffffff;  
-}  
-  
-.department-cto {  
-    background-color: #e9286f;  
-    color: #ffffff;  
-}  
-  
+
+:host /deep/ .p-organizationchart-selectable-node {
+border: 1px solid #000000;
+border-radius: 20px;
+}
+
+:host /deep/ .p-organizationchart .p-organizationchart-line-top {
+  border-top: 1px solid #000000;
+  border-color: #000000;
+}
+
+:host /deep/ .p-organizationchart-line-left{
+  display: 1px solid #000000;
+  border-color: #000000;
+}
+
+:host /deep/ .p-organizationchart .p-organizationchart-node-content{
+  font-weight: 600;
+  color: #000000;
+}
+
+:host /deep/ .p-organizationchart .p-organizationchart-node-content .p-node-toggler{
+  border: 1px solid #000000;
+  color: #000000;
+  font-weight: 1000;
+}
+
 :host / .p-organizationchart .p-organizationchart-node-content:hover {  
-    background: #DEEDF9 !important;  
-    cursor: pointer;  
+    background: #fbff00 !important;  
+    cursor: pointer;
   }  
-  :host /deep/ .p-organizationchart .p-organizationchart-node-content {  
-    border: 1px solid #e0e5e6 !important;  
-    color: #495057 !important;  
-    padding: 0.6rem !important;  
-    border-radius: 5px !important;  
-    background-color: #ffffff !important;  
-    margin-top: -11px;  
-    margin-bottom: -11px !important;  
-  }  
+
   :host /deep/ .p-organizationchart .p-organizationchart-line-down {  
     height: 30px !important;  
+    border: 1px solid #000000
   }  
   
   :host /deep/ .node-content {  
@@ -53,9 +73,3 @@
     border: 0px solid #b0c2d6;  
   }  
   
-  :host /deep/ .node-content {  
-    text-align: center;  
-    border: none !important;  
-    /* border: 1px solid #bdc2d6; */  
-    border-radius: 2px !important;  
-  }  
