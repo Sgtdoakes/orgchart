@@ -24,6 +24,34 @@ export class OrgchartComponent implements OnInit {
         this.counseleeCount = counselor.counselees.length;
     }
     
+    getWarningForRank(rank:string){
+        switch (rank){
+            case "Manager": 
+                return 4;
+            case "Assistant Manager": 
+                return 3;
+            case "Senior": 
+                return 2;
+            case "Staff/Assistant": 
+                return 0;
+            default:
+                return 0;
+        }
+    }
+    getDangerForRank(rank:string){
+        switch (rank){
+            case "Manager": 
+                return 5;
+            case "Assistant Manager": 
+                return 4;
+            case "Senior": 
+                return 3;
+            case "Staff/Assistant": 
+                return 1;
+            default:
+                return 0;
+        }
+    }
 
     private counselorToTreeNode(counselor: Counselor): TreeNode {
         let counselorTreeNodes: TreeNode[] = [];

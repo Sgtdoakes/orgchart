@@ -5,10 +5,12 @@
       <ng-template let-node pTemplate="default" >  
         <div class="node-content row e" style=" width: 225px !important;  
                          margin-top: -11px; margin-bottom: -11px;">  
-            <img src="{{node.data.avatar}}" width="32" [ngClass]="node.children.length <= 3 ? 'node-content-green' : node.children.length == 4 ? 'node-content-yellow' : 'node-content-red'" >
-          <div class="relation_ship_css_client rel_client_one badge badge-primary"><span class="rel_node_name">{{node.data.rank}}</span><br /></div>  
-          <div class="name_css_profile name_profile_one"><span class="rel_label_name">{{node.data.name}}</span></div>  
-        </div>  
+            <img src="{{!!node.data.avatar ? node.data.avatar : '/assets/fotos/imagengenérica.jpg'}}" width="32" [ngClass]="node.data.rank == 'Executive Director' ? 'node-content-mute' : node.children.length > getDangerForRank(node.data.rank) ? 'node-content-red' : node.children.length > getWarningForRank(node.data.rank) ? 'node-content-yellow' : 'node-content-green'">
+            <div class="relation_ship_css_client rel_client_one badge badge-primary">
+              <div class="counter" [ngClass]="node.children.length > getDangerForRank(node.data.rank) ? 'red-dot' : node.children.length > getWarningForRank(node.data.rank) ? 'yellow-dot' : 'green-dot'">{{node.children.length}}</div><br />
+              <span class="rel_node_name">{{node.data.rank}}</span><br /></div>  
+            <div class="name_css_profile name_profile_one"><span class="rel_label_name">{{node.data.name}}</span></div>  
+          </div>
       </ng-template>
   </p-organizationChart>  
   </div>  

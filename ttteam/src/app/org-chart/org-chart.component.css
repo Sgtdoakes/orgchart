@@ -19,18 +19,48 @@
   font-size:25px;
 }
 
-.node-content-red  {  
-    border-radius: 50%;   
-    border: 5px solid #ff0000 !important;  
+.node-content-red  {
+    border: 10px solid #ff0000 !important;
 }  
-.node-content-yellow  {  
-    border-radius: 50%;    
-    border: 5px solid #e5ff00 !important;  
+.node-content-yellow  {
+    border: 10px solid #ffd700 !important;
 }  
-.node-content-green  {  
-    border-radius: 50%;    
-    border: 5px solid #18ce00 !important;  
+.node-content-green  { 
+    border: 10px solid #18ce00 !important;
 }  
+.node-content-mute  {
+    border: 10px solid #727272 !important;
+}  
+
+.green-dot{
+  background-color: #18ce00 !important;
+}
+
+.yellow-dot{
+  background-color: #ffd700 !important;
+}
+
+.red-dot{
+  background-color: #ff0000 !important;
+}
+
+.counter{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display:flex;
+  margin-left: 60%;
+  margin-top: -25%;
+  font-size: 2rem;
+  position: absolute;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+img{
+  border-radius: 50%;
+}
 
 :host /deep/ .p-organizationchart-selectable-node {
 border: 1px solid #000000;
