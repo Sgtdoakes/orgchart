@@ -2,6 +2,47 @@
   padding-right: 0px !important;
   padding-left: 0px !important;
 }
+.detail-box {
+  width:500px;
+  height:100px;
+  border:1px solid rgb(0, 0, 0);
+  margin-left: 500px;
+  margin-bottom: 30px;
+  position: absolute !important;
+}
+
+
+.green-reference-dot {
+  height: 25px;
+  width: 25px;
+  background-color: #18ce00;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.orange-reference-dot {
+  height: 25px;
+  width: 25px;
+  background-color: #ffbb00;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.red-reference-dot {
+  height: 25px;
+  width: 25px;
+  background-color: #ff0000;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.container {
+  background-color: rgb(255, 255, 255) !important;
+  display: 	inline-table;
+  width: 100%;
+  font-size: 25px !important;
+}
+
 
 .badge {
   --bs-badge-color: #000000
@@ -22,8 +63,8 @@
 .node-content-red  {
     border: 10px solid #ff0000 !important;
 }  
-.node-content-yellow  {
-    border: 10px solid #ffd700 !important;
+.node-content-orange  {
+    border: 10px solid #ffbb00 !important;
 }  
 .node-content-green  { 
     border: 10px solid #18ce00 !important;
@@ -36,12 +77,16 @@
   background-color: #18ce00 !important;
 }
 
-.yellow-dot{
-  background-color: #ffd700 !important;
+.orange-dot{
+  background-color: #ffbb00 !important;
 }
 
 .red-dot{
   background-color: #ff0000 !important;
+
+
+}.no-dot{
+  background-color: #727272 !important;
 }
 
 .counter{

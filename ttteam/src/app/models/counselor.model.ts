@@ -4,4 +4,5 @@ export class Counselor{
     rank:string = "";
     avatar:string ="";
     counselees:Array<Counselor> = [];
+    details?: boolean = false;
 }

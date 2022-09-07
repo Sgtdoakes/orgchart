@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';  
+import { Component, OnInit, ViewChild } from '@angular/core';  
 import { TreeNode } from 'primeng/api';  
 import { Counselor } from '../models/counselor.model';
 import data from './ttteam.json';
@@ -23,29 +23,31 @@ export class OrgchartComponent implements OnInit {
     countingCounselees(counselor: Counselor){
         this.counseleeCount = counselor.counselees.length;
     }
-    
+
     getWarningForRank(rank:string){
         switch (rank){
+            case "Senior Manager":
+                return 8
             case "Manager": 
-                return 4;
+                return 8;
             case "Assistant Manager": 
-                return 3;
+                return 8;
             case "Senior": 
-                return 2;
-            case "Staff/Assistant": 
-                return 0;
+                return 6;
             default:
                 return 0;
         }
     }
     getDangerForRank(rank:string){
         switch (rank){
+            case "Senior Manager":
+                return 9;
             case "Manager": 
-                return 5;
+                return 9;
             case "Assistant Manager": 
-                return 4;
+                return 9;
             case "Senior": 
-                return 3;
+                return 7;
             case "Staff/Assistant": 
                 return 1;
             default:
@@ -53,6 +55,7 @@ export class OrgchartComponent implements OnInit {
         }
     }
 
+    
     private counselorToTreeNode(counselor: Counselor): TreeNode {
         let counselorTreeNodes: TreeNode[] = [];
         
@@ -64,7 +67,7 @@ export class OrgchartComponent implements OnInit {
             label: counselor.name,
             data: counselor,
             children: counselorTreeNodes,
-            expanded: true
+            expanded: false
         };    
     }
 }  
