@@ -6,7 +6,8 @@
       <span class="orange-reference-dot"></span>Ligeramente excedido<br>
       <span class="red-reference-dot"></span>Por encima del márgen<br>
     </div>
-
+  </div>
+<!-- 
   <p-organizationChart [value]="counselorNodes" selectionMode="single" [(selection)]="selectedNode" [preserveSpace]=false>
     <ng-template let-node pTemplate="default">
       <div class="node-content row e" style=" width: 225px !important; margin-top: -11px; margin-bottom: -11px;">
@@ -26,5 +27,27 @@
         </div>
       </div>
     </ng-template>
-  </p-organizationChart>
-</div>
+  </p-organizationChart> -->
+  <div>
+    <ul>
+      <ng-template #recursiveList let-counselors>
+        <li *ngFor="let counselor of counselors" class="rectangle">
+          <div class="align">
+            <!-- <div class="horizontal-lines">&nbsp;</div> -->
+            <div class="counselor">
+                {{counselor.name}}
+            </div>
+            <!-- <div class="horizontal-lines">&nbsp;</div> -->
+          </div>
+          <div style="display: grid; height: fit-content;align-items:center;">
+            <div class="next" *ngIf="counselor.counselees.length > 0">
+              <ul>
+                <ng-container *ngTemplateOutlet="recursiveList; context:{ $implicit: counselor.counselees }"></ng-container>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ng-template>
+      <ng-container *ngTemplateOutlet="recursiveList; context:{ $implicit: counselors }"></ng-container>
+    </ul>
+  </div>

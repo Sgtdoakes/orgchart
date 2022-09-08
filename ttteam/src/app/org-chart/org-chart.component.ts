@@ -13,11 +13,13 @@ import data from './ttteam.json';
 export class OrgchartComponent implements OnInit {  
 
   constructor() { }
+  counselors:Array<Counselor> = new Array<Counselor>();
     counselorNodes:TreeNode<Counselor>[] = [];
     selectedNode: TreeNode<Counselor>[] = [];
     counseleeCount = 0;
     ngOnInit(): void {
         this.counselorNodes.push(this.counselorToTreeNode(data)); 
+        this.counselors.push(data);
     }   
         
     countingCounselees(counselor: Counselor){
