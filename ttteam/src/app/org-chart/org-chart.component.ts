@@ -16,6 +16,7 @@ export class OrgchartComponent implements OnInit {
     counselorNodes:TreeNode<Counselor>[] = [];
     selectedNode: TreeNode<Counselor>[] = [];
     counseleeCount = 0;
+
     ngOnInit(): void {
         this.counselorNodes.push(this.counselorToTreeNode(data)); 
     }   
@@ -67,7 +68,7 @@ export class OrgchartComponent implements OnInit {
             label: counselor.name,
             data: counselor,
             children: counselorTreeNodes,
-            expanded: false
+            expanded: true
         };    
     }
 }  

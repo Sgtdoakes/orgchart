@@ -23,7 +23,7 @@
                             "name": "Fernanda M Moralli",
                             "email": "fernanda.m.moralli@gds.ey.com",
                             "rank": "Senior",
-                            "type": "person",
+                            "type": "person",                            
                             "avatar": "/assets/fotos/FernandaMMoralli.jpg",
                             "counselees": [
                                 {
@@ -74,6 +74,14 @@
                                     "type": "person",
                                     "avatar": "/assets/fotos/MauroEMolero.jpg",
                                     "counselees": []
+                                },
+                                {
+                                    "name": "Antonella Granara",
+                                    "email": "Antonella.Granara@gds.ey.com",
+                                    "rank": "Senior",
+                                    "type": "person",
+                                    "avatar": "/assets/fotos/AntonellaGranara.jpg",
+                                    "counselees": []
                                 }
                             ]
                         },
@@ -113,61 +121,69 @@
                                     "name": "Alejandra Parejo Nucete",
                                     "email": "Alejandra.Parejo.Nucete@gds.ey.com",
                                     "rank": "Senior",
+                                    "counselees": [],
                                     "type": "person",
-                                    "avatar": "/assets/fotos/AlejandraParejoNucete.jpg",
-                                    "counselees": []
+                                    "avatar": "/assets/fotos/AlejandraParejoNucete.jpg"
                                 },
                                 {
                                     "name": "Maria R Narvaez",
                                     "email": "Maria.Narvaez@gds.ey.com",
                                     "rank": "Staff/Assistant",
+                                    "counselees": [],
                                     "type": "person",
-                                    "avatar": "/assets/fotos/MariaRNarvaez.jpg",
-                                    "counselees": []
+                                    "avatar": "/assets/fotos/MariaRNarvaez.jpg"
                                 },
                                 {
                                     "name": "Andrea Travaglio Crisafi",
                                     "email": "Andrea.Travaglio.Crisafi@gds.ey.com",
                                     "rank": "Staff/Assistant",
+                                    "counselees": [],
                                     "type": "person",
-                                    "avatar": "/assets/fotos/AndreaTravaglioCrisafi.jpg",
-                                    "counselees": []
+                                    "avatar": "/assets/fotos/AndreaTravaglioCrisafi.jpg"
                                 },
                                 {
                                     "name": "Gabriela N Favala",
                                     "email": "Gabriela.Favala@gds.ey.com",
                                     "rank": "Senior",
+                                    "counselees": [],
                                     "type": "person",
-                                    "avatar": "/assets/fotos/GabrielaNFavala.jpg",
-                                    "counselees": []
+                                    "avatar": "/assets/fotos/GabrielaNFavala.jpg"
                                 },
                                 {
                                     "name": "Camila C Prieto",
                                     "email": "Camila.Prieto@gds.ey.com",
                                     "rank": "Staff/Assistant",
+                                    "counselees": [],
                                     "type": "person",
-                                    "avatar": "",
-                                    "counselees": []
+                                    "avatar": ""
                                 },
                                 {
                                     "name": "Luisina G Helu Iseli",
                                     "email": "Luisina.Helu.Iseli@gds.ey.com",
                                     "rank": "Staff/Assistant",
+                                    "counselees": [],
                                     "type": "person",
-                                    "avatar": "",
-                                    "counselees": []
+                                    "avatar": "/assets/fotos/LuisinaGHeluIseli.jpg"
                                 },
                                 {
                                     "name": "Santiago J Barrionuevo",
                                     "email": "Santiago.Barrionuevo@gds.ey.com",
                                     "rank": "Staff/Assistant",
+                                    "counselees": [],
                                     "type": "person",
-                                    "avatar": "",
-                                    "counselees": []
+                                    "avatar": "/assets/fotos/SantiagoJBarrionuevo.jpg"
                                 },
                                 {
                                     "name": "Alejandro F Florez Gregorian",
                                     "email": "Alejandro.Florez.Gregorian@gds.ey.com",
+                                    "rank": "Staff/Assistant",
+                                    "counselees": [],
+                                    "type": "person",
+                                    "avatar": "/assets/fotos/AlejandroFFlorezGregorian.jpg"
+                                },
+                                {
+                                    "name": "Sofia S Ortega",
+                                    "email": "Sofia.Ortega1@gds.ey.com",
                                     "rank": "Staff/Assistant",
                                     "type": "person",
                                     "avatar": "",
@@ -178,13 +194,85 @@
                                     "email": "Nicole.Contreras@gds.ey.com",
                                     "rank": "Staff/Assistant",
                                     "type": "person",
-                                    "avatar": "",
+                                    "avatar": "/assets/fotos/NicoleNContreras.jpg",
                                     "counselees": []
                                 },
                                 {
                                     "name": "Florencia S Gomez",
                                     "email": "Florencia.Gomez@gds.ey.com",
                                     "rank": "Staff/Assistant",
+                                    "type": "person",
+                                    "avatar": "/assets/fotos/FlorenciaSGomez.jpg",
+                                    "counselees": []
+                                },
+                                {
+                                    "name": "Francisco J Piñero",
+                                    "email": "Francisco.Pinero@gds.ey.com",
+                                    "rank": "Staff/Assistant",
+                                    "type": "person",
+                                    "avatar": "/assets/fotos/FranciscoJPiñero.jpg",
+                                    "counselees": []
+                                },
+                                {
+                                    "name": "Eugenia M Almenar",
+                                    "email": "Eugenia.Almenar@gds.ey.com",
+                                    "rank": "Staff/Assistant",
+                                    "type": "person",
+                                    "avatar": "/assets/fotos/EugeniaMAlmenar.jpg",
+                                    "counselees": []
+                                },
+                                {
+                                    "name": "Lisette L Alonso",
+                                    "email": "Lisette.Alonso@gds.ey.com",
+                                    "rank": "Senior",
+                                    "type": "person",
+                                    "avatar": "/assets/fotos/LisetteLAlonso.jpg",
+                                    "counselees": []
+                                },
+                                {
+                                    "name": "Fabiola F Ramos Lopez",
+                                    "email": "Fabiola.Ramos.Lopez@gds.ey.com",
+                                    "rank": "Staff/Assistant",
+                                    "type": "person",
+                                    "avatar": "/assets/fotos/FabiolaFRamosLopez.jpg",
+                                    "counselees": []
+                                },
+                                {
+                                    "name": "Rosa M Mamani",
+                                    "email": "Rosa.Mamani@gds.ey.com",
+                                    "rank": "Staff/Assistant",
+                                    "type": "person",
+                                    "avatar": "",
+                                    "counselees": []
+                                },
+                                {
+                                    "name": "Claudio E Francavilla",
+                                    "email": "Claudio.Francavilla@gds.ey.com",
+                                    "rank": "Senior",
+                                    "type": "person",
+                                    "avatar": "/assets/fotos/ClaudioEFrancavilla.jpg",
+                                    "counselees": []
+                                },
+                                {
+                                    "name": "German G Nostel Dominguez",
+                                    "email": "German.Nostel.Dominguez@gds.ey.com",
+                                    "rank": "Senior",
+                                    "type": "person",
+                                    "avatar": "",
+                                    "counselees": []
+                                },
+                                {
+                                    "name": "Luciana L Irrera",
+                                    "email": "Luciana.Irrera@gds.ey.com",
+                                    "rank": "Senior",
+                                    "type": "person",
+                                    "avatar": "",
+                                    "counselees": []
+                                },
+                                {
+                                    "name": "Marcelo A Remesal",
+                                    "email": "Marcelo.Remesal@gds.ey.com",
+                                    "rank": "Senior",
                                     "type": "person",
                                     "avatar": "",
                                     "counselees": []
@@ -204,6 +292,14 @@
                                     "rank": "Staff/Assistant",
                                     "type": "person",
                                     "avatar": "/assets/fotos/JacintaVayo.jpg",
+                                    "counselees": []
+                                },
+                                {
+                                    "name": "Mauricio D Tamaki",
+                                    "email": "Mauricio.Tamaki@gds.ey.com",
+                                    "rank": "Staff/Assistant",
+                                    "type": "person",
+                                    "avatar": "/assets/fotos/MauricioDTamaki.jpg",
                                     "counselees": []
                                 }
                             ]
@@ -238,8 +334,16 @@
                             "email": "David.Aseijas@gds.ey.com",
                             "rank": "Senior",
                             "type": "person",
-                            "avatar": "/assets/fotos/DavidAseijas.jpg",
-                            "counselees": []
+                            "counselees": [],
+                            "avatar": "/assets/fotos/DavidAseijas.jpg"
+                        },
+                        {
+                            "name": "Leandro A Micolucci",
+                            "email": "Leandro.Micolucci@gds.ey.com",
+                            "rank": "Senior",
+                            "type": "person",
+                            "counselees": [],
+                            "avatar": "/assets/fotos/LeandroAMicolucci.jpg"
                         }
                     ]
                 },
@@ -318,19 +422,11 @@
                             ]
                         },
                         {
-                            "name": "Florencia Garcia",
-                            "email": "Florencia.Garcia@gds.ey.com",
-                            "rank": "Staff/Assistant",
-                            "type": "person",
-                            "avatar": "/assets/fotos/FlorenciaGarcia.jpg",
-                            "counselees": []
-                        },
-                        {
                             "name": "Camila A Grosz",
                             "email": "Camila.Grosz@gds.ey.com",
                             "rank": "Staff/Assistant",
-                            "type": "person",
                             "avatar": "/assets/fotos/CamilaAGrosz.jpg",
+                            "type": "person",
                             "counselees": []
                         },
                         {
@@ -346,8 +442,8 @@
                             "email": "Martin.Taddeo@gds.ey.com",
                             "rank": "Senior",
                             "type": "person",
-                            "avatar": "/assets/fotos/MartínRTaddeo.jpg",
-                            "counselees": []
+                            "counselees": [],
+                            "avatar": "/assets/fotos/MartínRTaddeo.jpg"
                         }
                     ]
                 },
@@ -369,25 +465,17 @@
                                     "name": "Juan I Garcia",
                                     "email": "Juan.Garcia.Zamora@gds.ey.com",
                                     "rank": "Senior",
+                                    "counselees": [],
                                     "type": "person",
-                                    "avatar": "/assets/fotos/JuanIGarcia.jpg",
-                                    "counselees": []
+                                    "avatar": "/assets/fotos/JuanIGarcia.jpg"
                                 },
                                 {
                                     "name": "Esteban A Carboni",
                                     "email": "Esteban.Carboni@gds.ey.com",
                                     "rank": "Staff/Assistant",
+                                    "counselees": [],
                                     "type": "person",
-                                    "avatar": "",
-                                    "counselees": []
-                                },
-                                {
-                                    "name": "Alejandro Hernandez Dunn",
-                                    "email": "Alejandro.Hernandez.Dunn@gds.ey.com",
-                                    "rank": "Staff/Assistant",
-                                    "type": "person",
-                                    "avatar": "/assets/fotos/AlejandroHernandezDunn.jpg",
-                                    "counselees": []
+                                    "avatar": ""
                                 }
                             ]
                         },
@@ -412,6 +500,14 @@
                                     "rank": "Staff/Assistant",
                                     "type": "person",
                                     "avatar": "/assets/fotos/MatiasAGaser.jpg",
+                                    "counselees": []
+                                },
+                                {
+                                    "name": "Gabriel J Zorrilla",
+                                    "email": "Gabriel.Zorrilla@gds.ey.com",
+                                    "rank": "Staff/Assistant",
+                                    "type": "person",
+                                    "avatar": "",
                                     "counselees": []
                                 }
                             ]
@@ -485,33 +581,33 @@
                                     "name": "Federico Delgado",
                                     "email": "Federico.Delgado@gds.ey.com",
                                     "rank": "Senior",
+                                    "counselees": [],
                                     "type": "person",
-                                    "avatar": "/assets/fotos/FedericoDelgado.jpg",
-                                    "counselees": []
+                                    "avatar": "/assets/fotos/FedericoDelgado.jpg"
                                 },
                                 {
                                     "name": "Ramiro Bernal",
                                     "email": "Ramiro.Bernal@gds.ey.com",
                                     "rank": "Senior",
+                                    "counselees": [],
                                     "type": "person",
-                                    "avatar": "/assets/fotos/RamiroBernal.jpg",
-                                    "counselees": []
+                                    "avatar": "/assets/fotos/RamiroBernal.jpg"
                                 },
                                 {
                                     "name": "Patricio T Monpelat",
                                     "email": "Patricio.Monpelat@gds.ey.com",
                                     "rank": "Staff/Assistant",
+                                    "counselees": [],
                                     "type": "person",
-                                    "avatar": "/assets/fotos/PatricioTMonpelat.jpg",
-                                    "counselees": []
+                                    "avatar": "/assets/fotos/PatricioTMonpelat.jpg"
                                 },
                                 {
                                     "name": "Damian A Diez",
                                     "email": "Damian.Diez@gds.ey.com",
                                     "rank": "Senior",
+                                    "counselees": [],
                                     "type": "person",
-                                    "avatar": "",
-                                    "counselees": []
+                                    "avatar": "/assets/fotos/DamianADiez.jpg"
                                 }
                             ]
                         },
@@ -526,41 +622,41 @@
                                     "name": "Lucas R Silva",
                                     "email": "Lucas.Silva@gds.ey.com",
                                     "rank": "Staff/Assistant",
+                                    "counselees": [],
                                     "type": "person",
-                                    "avatar": "/assets/fotos/LucasRSilva.jpg",
-                                    "counselees": []
+                                    "avatar": "/assets/fotos/LucasRSilva.jpg"
                                 },
                                 {
                                     "name": "Marcelo Romero Giacalone",
                                     "email": "Marcelo.Romero@gds.ey.com",
                                     "rank": "Senior",
+                                    "counselees": [],
                                     "type": "person",
-                                    "avatar": "/assets/fotos/MarceloRomeroGiacalone.jpg",
-                                    "counselees": []
+                                    "avatar": "/assets/fotos/MarceloRomeroGiacalone.jpg"
                                 },
                                 {
                                     "name": "María D Torres",
                                     "email": "Maria.Torres@gds.ey.com",
                                     "rank": "Staff/Assistant",
+                                    "counselees": [],
                                     "type": "person",
-                                    "avatar": "/assets/fotos/MaríaDTorres.jpg",
-                                    "counselees": []
+                                    "avatar": "/assets/fotos/MaríaDTorres.jpg"
                                 },
                                 {
                                     "name": "Daiana Y Ortiz",
                                     "email": "Daiana.Ortiz@gds.ey.com",
                                     "rank": "Staff/Assistant",
+                                    "counselees": [],
                                     "type": "person",
-                                    "avatar": "/assets/fotos/DaianaYOrtiz.jpg",
-                                    "counselees": []
+                                    "avatar": "/assets/fotos/DaianaYOrtiz.jpg"
                                 },
                                 {
                                     "name": "Braian E Sanchez",
                                     "email": "Braian.Sanchez@gds.ey.com",
                                     "rank": "Senior",
+                                    "counselees": [],
                                     "type": "person",
-                                    "avatar": "",
-                                    "counselees": []
+                                    "avatar": "/assets/fotos/BraianESanchez.jpg"
                                 }
                             ]
                         },
@@ -619,7 +715,16 @@
                                     "rank": "Senior",
                                     "type": "person",
                                     "avatar": "/assets/fotos/QuimeyNOrosco.jpg",
-                                    "counselees": []
+                                    "counselees": [
+                                        {
+                                            "name": "Julian Arias",
+                                            "email": "Julian.Arias@gds.ey.com",
+                                            "rank": "Senior",
+                                            "type": "person",
+                                            "avatar": "",
+                                            "counselees": []
+                                        }
+                                    ]
                                 },
                                 {
                                     "name": "Anabel A Aramayo",
@@ -643,33 +748,33 @@
                             "name": "Francisco J Gimenez",
                             "email": "Francisco.Gimenez@gds.ey.com",
                             "rank": "Staff/Assistant",
+                            "counselees": [],
                             "type": "person",
-                            "avatar": "/assets/fotos/FranciscoJGimenez.jpg",
-                            "counselees": []
+                            "avatar": "/assets/fotos/FranciscoJGimenez.jpg"
                         },
                         {
                             "name": "Laura M Gorostegui",
                             "email": "Laura.Gorostegui@gds.ey.com",
                             "rank": "Manager",
+                            "counselees": [],
                             "type": "person",
-                            "avatar": "/assets/fotos/LauraMGorostegui.jpg",
-                            "counselees": []
+                            "avatar": "/assets/fotos/LauraMGorostegui.jpg"
                         },
                         {
                             "name": "Damian D Sanchez Zarfino",
                             "email": "Damian.Sanchez.Zarfino@gds.ey.com",
                             "rank": "Staff/Assistant",
+                            "counselees": [],
                             "type": "person",
-                            "avatar": "/assets/fotos/DamianDSanchezZarfino.jpg",
-                            "counselees": []
+                            "avatar": "/assets/fotos/DamianDSanchezZarfino.jpg"
                         },
                         {
                             "name": "Daniel A Puertolas",
                             "email": "Daniel.Puertolas@gds.ey.com",
                             "rank": "Senior",
+                            "counselees": [],
                             "type": "person",
-                            "avatar": "",
-                            "counselees": []
+                            "avatar": ""
                         }
                     ]
                 },
@@ -684,33 +789,33 @@
                             "name": "Rocio Suarez Galan",
                             "email": "Rocio.Suarez.Galan@gds.ey.com",
                             "rank": "Staff/Assistant",
+                            "counselees": [],
                             "type": "person",
-                            "avatar": "/assets/fotos/RocioSuarezGalan.jpg",
-                            "counselees": []
+                            "avatar": "/assets/fotos/RocioSuarezGalan.jpg"
                         },
                         {
                             "name": "Ivan Coda",
                             "email": "Ivan.Coda@gds.ey.com",
                             "rank": "Staff/Assistant",
+                            "counselees": [],
                             "type": "person",
-                            "avatar": "/assets/fotos/IvanCoda.jpg",
-                            "counselees": []
+                            "avatar": "/assets/fotos/IvanCoda.jpg"
                         },
                         {
                             "name": "Alexandra V Abbate",
                             "email": "Alexandra.Abbate@gds.ey.com",
                             "rank": "Staff/Assistant",
+                            "counselees": [],
                             "type": "person",
-                            "avatar": "/assets/fotos/AlexandraAbbate.jpg",
-                            "counselees": []
+                            "avatar": "/assets/fotos/AlexandraVAbbate.jpg"
                         },
                         {
                             "name": "Diego N Rinaudo",
                             "email": "Diego.Rinaudo@gds.ey.com",
                             "rank": "Staff/Assistant",
+                            "counselees": [],
                             "type": "person",
-                            "avatar": "/assets/fotos/DiegoNRinaudo.jpg",
-                            "counselees": []
+                            "avatar": "/assets/fotos/DiegoNRinaudo.jpg"
                         }
                     ]
                 }
@@ -734,42 +839,66 @@
                             "name": "Rolando J Melian",
                             "email": "Rolando.J.Melian@gds.ey.com",
                             "rank": "Senior",
+                            "counselees": [],
                             "type": "person",
-                            "avatar": "/assets/fotos/RolandoJMelian.jpg",
-                            "counselees": []
+                            "avatar": "/assets/fotos/RolandoJMelian.jpg"
                         },
                         {
                             "name": "Florencia Curotto",
                             "email": "Florencia.Curotto@gds.ey.com",
                             "rank": "Senior",
+                            "counselees": [],
                             "type": "person",
-                            "avatar": "/assets/fotos/FlorenciaCurotto.jpg",
-                            "counselees": []
+                            "avatar": "/assets/fotos/FlorenciaCurotto.jpg"
                         },
                         {
                             "name": "Javier A Barbero",
                             "email": "Javier.Barbero@gds.ey.com",
                             "rank": "Senior",
+                            "counselees": [],
                             "type": "person",
-                            "avatar": "/assets/fotos/JavierABarbero.jpg",
-                            "counselees": []
+                            "avatar": "/assets/fotos/JavierABarbero.jpg"
+                        },
+                        {
+                            "name": "Federico O Barbagallo",
+                            "email": "Federico.Barbagallo@gds.ey.com",
+                            "rank": "Senior",
+                            "counselees": [],
+                            "type": "person",
+                            "avatar": "/assets/fotos/FedericoOBarbagallo.jpg"
+                        },
+                        {
+                            "name": "Eric D Mackrill",
+                            "email": "Eric.Mackrill@gds.ey.com",
+                            "rank": "Senior",
+                            "counselees": [],
+                            "type": "person",
+                            "avatar": ""
+                        },
+                        {
+                            "name": "Sheila M Medero",
+                            "email": "Sheila.Medero@gds.ey.com",
+                            "rank": "Senior",
+                            "counselees": [],
+                            "type": "person",
+                            "avatar": "/assets/fotos/SheilaMMedero.jpg"
+                        },
+                        {
+                            "name": "Roberto J Perez",
+                            "email": "Roberto.Perez@gds.ey.com",
+                            "rank": "Senior",
+                            "counselees": [],
+                            "type": "person",
+                            "avatar": "/assets/fotos/RobertoJPerez.jpg"
                         }
                     ]
                 },
                 {
-                    "name": "Sebastian R Basadre",
-                    "email": "Sebastian.R.Basadre@gds.ey.com",
-                    "rank": "Manager",
-                    "type": "person",
-                    "avatar": "/assets/fotos/SebastianRBasadre.jpg",
-                    "counselees": []
-                },
-                {
-                    "name": "Alejandro B Vazquez",
+                    "name": "Alejandro Vazquez",
                     "email": "Alejandro.Vazquez1@gds.ey.com",
                     "rank": "Senior",
                     "type": "person",
-                    "avatar": "",
+                    "avatar": "/assets/fotos/AlejandroVazquez.jpg",
                     "counselees": []
                 }
             ]

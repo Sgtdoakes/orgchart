@@ -2,6 +2,22 @@
   padding-right: 0px !important;
   padding-left: 0px !important;
 }
+
+.horizontalChart{
+  -webkit-transform: rotate(-90deg) !important;
+  -moz-transform: rotate(-90deg)!important;
+  -o-transform: rotate(-90deg)!important;
+  -ms-transform: rotate(-90deg)!important;
+  transform: rotate(-90deg)!important;
+  }
+  .horizontalNode {
+    -webkit-transform: rotate(90deg)!important;
+  -moz-transform: rotate(90deg)!important;
+  -o-transform: rotate(90deg)!important;
+  -ms-transform: rotate(90deg)!important;
+  transform: rotate(90deg)!important;
+  }
+
 .detail-box {
   width:500px;
   height:100px;
@@ -105,11 +121,20 @@
 
 img{
   border-radius: 50%;
+  max-height: 203px;
+}
+
+body {
+  transform: rotate(-90deg) !important;
 }
 
 :host /deep/ .p-organizationchart-selectable-node {
 border: 1px solid #000000;
 border-radius: 20px;
+}
+
+:host /deep/ .p-organizationchart-table {
+  border-collapse: collapse  !important;
 }
 
 :host /deep/ .p-organizationchart .p-organizationchart-line-top {
