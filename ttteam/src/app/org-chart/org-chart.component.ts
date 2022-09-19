@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';  
 import { TreeNode } from 'primeng/api';  
 import { Counselor } from '../models/counselor.model';
-import data from './ttteam.json';
+import data from 'src/assets/ttteam.json';
   
 @Component({  
   selector: 'app-orgchart',  
