@@ -29,24 +29,24 @@
 
 
 .green-reference-dot {
-  height: 25px;
-  width: 25px;
+  height: 3vh;
+  width: 1.5vw;
   background-color: #18ce00;
   border-radius: 50%;
   display: inline-block;
 }
 
 .orange-reference-dot {
-  height: 25px;
-  width: 25px;
+  height: 3vh;
+  width: 1.5vw;
   background-color: #ffbb00;
   border-radius: 50%;
   display: inline-block;
 }
 
 .red-reference-dot {
-  height: 25px;
-  width: 25px;
+  height: 3vh;
+  width: 1.5vw;
   background-color: #ff0000;
   border-radius: 50%;
   display: inline-block;
@@ -119,10 +119,19 @@
   justify-content: center;
 }
 
-img{
+.photo{
   border-radius: 50%;
-  max-height: 203px;
+  height: 203px;
+  
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center; 
+  background-size: cover; 
 }
+
+html{
+  zoom: 30%;
+  }
 
 body {
   transform: rotate(-90deg) !important;
@@ -173,3 +182,29 @@ border-radius: 20px;
     border: 0px solid #b0c2d6;  
   }  
   
+.menu{
+  width: 12vw;
+  /* height: 30vh; */
+  background-color: white;
+  padding: 1vw;
+  margin-right:auto;
+  border: 1px solid rgb(146, 146, 146);
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 10;
+}
+.menu-item{
+  /* width: 15vh; */
+  margin: 0.5vh;
+  padding: 0px;
+  display:flex;
+  align-items:center;
+}
+p.menu-text{
+  display: inline-block;
+  font-size: 1.5vh !important;
+  margin: 0.5vh;
+  padding: 0px;
+  width: max-content;
+}

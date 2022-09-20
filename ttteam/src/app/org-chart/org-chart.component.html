@@ -1,22 +1,30 @@
 <div class="col-sm-12 container">
 
  
-    <div style="width:500px;height:100px;border:1px solid rgb(255, 255, 255);">
-      <span class="green-reference-dot"></span>Dentro de los límites para su rank<br>
-      <span class="orange-reference-dot"></span>Ligeramente excedido<br>
-      <span class="red-reference-dot"></span>Por encima del márgen<br>
+    <div class="menu">
+      <div class="menu-item"><p class="menu-text" style="font-weight: bold;">Color codes</p></div>
+      <div class="menu-item"><span class="green-reference-dot"></span><p class="menu-text">Within range</p></div>
+      <div class="menu-item"><span class="orange-reference-dot"></span><p class="menu-text">Just above range (+1)</p></div>
+      <div class="menu-item"><span class="red-reference-dot"></span><p class="menu-text">Well above range (+3)</p></div>
+      <div class="menu-item"><p class="menu-text">&nbsp;</p></div>
+      <div class="menu-item"><p class="menu-text" style="font-weight: bold;">Thresholds per rank</p></div>
+      <div class="menu-item"><p class="menu-text">Senior Manager: {{seniorManagerCount}}</p></div>
+      <div class="menu-item"><p class="menu-text">Manager:  {{managerCount}}</p></div>
+      <div class="menu-item"><p class="menu-text">Assistant Manager:  {{assistantManagerCount}}</p></div>
+      <div class="menu-item"><p class="menu-text">Senior:  {{seniorCount}}</p></div>
+      <div class="menu-item"><p class="menu-text">Staff/Assistant:  {{staffCount}}</p></div>
     </div>
 
   <p-organizationChart [value]="counselorNodes" selectionMode="single" [(selection)]="selectedNode" [preserveSpace]=false class="horizontalChart">
     <ng-template let-node pTemplate="default" class="horizontalNode">
       <div class="node-content row e" style=" width: 225px !important; margin-top: -11px; margin-bottom: -11px;">
-        <img alt="" src="{{!!node.data.avatar ? node.data.avatar : '/assets/fotos/imagengenérica.jpg'}}" 
-          [ngClass]="node.data.rank == 'Executive Director' ? 'node-content-mute' : node.data.rank == 'Staff/Assistant' && node.children.length == 0 ? 'node-content-mute' :
-           node.children.length >= getDangerForRank(node.data.rank) -1 ? 'node-content-red' : 
-           node.children.length > getWarningForRank(node.data.rank) -2 ? 'node-content-orange' : 'node-content-green'">
+        <div class="photo" [style.background-image]="!!node.data.avatar ? 'url(\'' + node.data.avatar + '\')' : 'url(\'' + '/assets/fotos/imagengenérica.jpg' + '\')'" 
+          [ngClass]="node.data.rank == 'Executive Director' ? 'node-content-mute' : getCountForRank(node.data.rank) == 0 && node.children.length == 0 ? 'node-content-mute' :
+           node.children.length >= getCountForRank(node.data.rank) + 3 ? 'node-content-red' : 
+           node.children.length >= getCountForRank(node.data.rank) + 1 ? 'node-content-orange' : 'node-content-green'"></div>
         <div class="relation_ship_css_client rel_client_one badge badge-primary">
-          <div class="counter" *ngIf="node.data.name != 'Ajay Samuel'  && (node.data.rank != 'Staff/Assistant' || node.children.length > 0)" [ngClass]="node.children.length >= getDangerForRank(node.data.rank) -1 ? 'red-dot' : 
-                       node.children.length > getWarningForRank(node.data.rank) -2 ? 'orange-dot' : 'green-dot'">
+          <div class="counter" *ngIf="node.data.name != 'Ajay Samuel'  && (getCountForRank(node.data.rank) != 0 || node.children.length > 0)" [ngClass]="node.children.length >= getCountForRank(node.data.rank) + 3 ? 'red-dot' : 
+                       node.children.length >= getCountForRank(node.data.rank) + 1 ? 'orange-dot' : 'green-dot'">
             {{node.children.length}}
           </div><br />
           <span class="rel_node_name">{{node.data.rank}}</span><br />

@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';  
 import { TreeNode } from 'primeng/api';  
 import { Counselor } from '../models/counselor.model';
-import data from './ttteam.json';
+import data from 'src/assets/ttteam.json';
   
 @Component({  
   selector: 'app-orgchart',  
@@ -16,6 +16,11 @@ export class OrgchartComponent implements OnInit {
     counselorNodes:TreeNode<Counselor>[] = [];
     selectedNode: TreeNode<Counselor>[] = [];
     counseleeCount = 0;
+    seniorManagerCount = 6;
+    managerCount = 6;
+    assistantManagerCount = 6;
+    seniorCount = 4;
+    staffCount = 0;
 
     ngOnInit(): void {
         this.counselorNodes.push(this.counselorToTreeNode(data)); 
@@ -25,32 +30,18 @@ export class OrgchartComponent implements OnInit {
         this.counseleeCount = counselor.counselees.length;
     }
 
-    getWarningForRank(rank:string){
+    getCountForRank(rank:string){
         switch (rank){
             case "Senior Manager":
-                return 8
+                return this.seniorManagerCount;
             case "Manager": 
-                return 8;
+                return this.managerCount;
             case "Assistant Manager": 
-                return 8;
+                return this.assistantManagerCount;
             case "Senior": 
-                return 6;
-            default:
-                return 0;
-        }
-    }
-    getDangerForRank(rank:string){
-        switch (rank){
-            case "Senior Manager":
-                return 9;
-            case "Manager": 
-                return 9;
-            case "Assistant Manager": 
-                return 9;
-            case "Senior": 
-                return 7;
+                return this.seniorCount;
             case "Staff/Assistant": 
-                return 1;
+                return this.staffCount;
             default:
                 return 0;
         }
