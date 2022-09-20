@@ -129,10 +129,6 @@
   background-size: cover; 
 }
 
-html{
-  zoom: 30%;
-  }
-
 body {
   transform: rotate(-90deg) !important;
 }
