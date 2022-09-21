@@ -7,18 +7,18 @@
       <div class="menu-item"><span class="orange-reference-dot"></span><p class="menu-text">Just above range (+1)</p></div>
       <div class="menu-item"><span class="red-reference-dot"></span><p class="menu-text">Well above range (+3)</p></div>
       <div class="menu-item"><p class="menu-text">&nbsp;</p></div>
-      <div class="menu-item"><p class="menu-text" style="font-weight: bold;">Thresholds per rank</p></div>
+      <!-- <div class="menu-item"><p class="menu-text" style="font-weight: bold;">Thresholds per rank</p></div>
       <div class="menu-item"><p class="menu-text">Senior Manager: {{seniorManagerCount}}</p></div>
       <div class="menu-item"><p class="menu-text">Manager:  {{managerCount}}</p></div>
       <div class="menu-item"><p class="menu-text">Assistant Manager:  {{assistantManagerCount}}</p></div>
       <div class="menu-item"><p class="menu-text">Senior:  {{seniorCount}}</p></div>
-      <div class="menu-item"><p class="menu-text">Staff/Assistant:  {{staffCount}}</p></div>
+      <div class="menu-item"><p class="menu-text">Staff/Assistant:  {{staffCount}}</p></div> -->
     </div>
 
   <p-organizationChart [value]="counselorNodes" selectionMode="single" [(selection)]="selectedNode" [preserveSpace]=false class="horizontalChart">
     <ng-template let-node pTemplate="default" class="horizontalNode">
       <div class="node-content row e" style=" width: 225px !important; margin-top: -11px; margin-bottom: -11px;">
-        <div class="photo" [style.background-image]="!!node.data.avatar ? 'url(\'' + node.data.avatar + '\')' : 'url(\'' + '/assets/fotos/imagengenérica.jpg' + '\')'" 
+        <div class="photo" [style.background-image]="!!node.data.avatar ? 'url(\'' + node.data.avatar + '\')' : 'url(\'' + '/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/imagengenérica.jpg' + '\')'" 
           [ngClass]="node.data.rank == 'Executive Director' ? 'node-content-mute' : getCountForRank(node.data.rank) == 0 && node.children.length == 0 ? 'node-content-mute' :
            node.children.length >= getCountForRank(node.data.rank) + 3 ? 'node-content-red' : 
            node.children.length >= getCountForRank(node.data.rank) + 1 ? 'node-content-orange' : 'node-content-green'"></div>

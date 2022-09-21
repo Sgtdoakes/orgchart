@@ -1,7 +1,9 @@
 import { Component, OnInit, ViewChild } from '@angular/core';  
 import { TreeNode } from 'primeng/api';  
+// import { HttpClient } from '@angular/common/http';
 import { Counselor } from '../models/counselor.model';
-import data from 'src/assets/ttteam.json';
+// import data from 'src/assets/ttteam.json';
+import { JsonService } from '../services/json.service';
   
 @Component({  
   selector: 'app-orgchart',  
@@ -12,7 +14,7 @@ import data from 'src/assets/ttteam.json';
 
 export class OrgchartComponent implements OnInit {  
 
-  constructor() { }
+  constructor(private jsonService:JsonService) { }
     counselorNodes:TreeNode<Counselor>[] = [];
     selectedNode: TreeNode<Counselor>[] = [];
     counseleeCount = 0;
@@ -23,7 +25,10 @@ export class OrgchartComponent implements OnInit {
     staffCount = 0;
 
     ngOnInit(): void {
-        this.counselorNodes.push(this.counselorToTreeNode(data)); 
+        this.jsonService.getCounselors().subscribe(json => {
+            this.counselorNodes.push(this.counselorToTreeNode(<Counselor>json));
+        });
+        
     }   
         
     countingCounselees(counselor: Counselor){

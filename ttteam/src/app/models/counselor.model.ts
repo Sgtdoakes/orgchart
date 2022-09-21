@@ -3,6 +3,6 @@ export class Counselor{
     email:string = "";
     rank:string = "";
     avatar:string ="";
+    type:string ="";
     counselees:Array<Counselor> = [];
-    details?: boolean = false;
 }
