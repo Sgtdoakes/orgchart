@@ -2,35 +2,35 @@
     "name": "Ajay Samuel",
     "email": "Ajay.Samuel@gds.ey.com",
     "rank": "Executive Director",
-    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/AjaySamuel.jpg",
+    "avatar": "assets/fotos/AjaySamuel.jpg",
     "type": "person",
     "counselees": [
       {
         "name": "Gustavo Orteu",
         "email": "Gustavo.Orteu@gds.ey.com",
         "rank": "Manager",
-        "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/GustavoOrteu.jpg",
+        "avatar": "assets/fotos/GustavoOrteu.jpg",
         "type": "person",
         "counselees": [
           {
             "name": "Patricia Pessoa de Oliveira",
             "email": "Patricia.Pessoa.de.Oliveira@gds.ey.com",
             "rank": "Manager",
-            "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/PatriciaPessoadeOliveira.jpg",
+            "avatar": "assets/fotos/PatriciaPessoadeOliveira.jpg",
             "type": "person",
             "counselees": [
               {
                 "name": "Fernanda M Moralli",
                 "email": "fernanda.m.moralli@gds.ey.com",
                 "rank": "Senior",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/FernandaMMoralli.jpg",
+                "avatar": "assets/fotos/FernandaMMoralli.jpg",
                 "type": "person",
                 "counselees": [
                   {
                     "name": "Barbara Guil",
                     "email": "Barbara.Guil@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/BarbaraGuil.jpg",
+                    "avatar": "assets/fotos/BarbaraGuil.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -38,7 +38,7 @@
                     "name": "Karen I Ferrario",
                     "email": "Karen.Ferrario@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/KarenIFerrario.jpg",
+                    "avatar": "assets/fotos/KarenIFerrario.jpg",
                     "type": "person",
                     "counselees": []
                   }
@@ -48,14 +48,14 @@
                 "name": "Ayelen Smal",
                 "email": "Ayelen.Smal@gds.ey.com",
                 "rank": "Senior",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/AyelenSmal.jpg",
+                "avatar": "assets/fotos/AyelenSmal.jpg",
                 "type": "person",
                 "counselees": [
                   {
                     "name": "Eugenia Landini",
                     "email": "Eugenia.Landini@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/EugeniaLandini.jpg",
+                    "avatar": "assets/fotos/EugeniaLandini.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -63,7 +63,7 @@
                     "name": "Sofía Petit de Meurville",
                     "email": "Sofia.Petit.de.Meurville@gds.ey.com",
                     "rank": "Senior",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/SofíaPetitdeMeurville.jpg",
+                    "avatar": "assets/fotos/SofíaPetitdeMeurville.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -71,7 +71,7 @@
                     "name": "Mauro E Molero",
                     "email": "Mauro.Molero@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/MauroEMolero.jpg",
+                    "avatar": "assets/fotos/MauroEMolero.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -79,7 +79,7 @@
                     "name": "Antonella Granara",
                     "email": "Antonella.Granara@gds.ey.com",
                     "rank": "Senior",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/AntonellaGranara.jpg",
+                    "avatar": "assets/fotos/AntonellaGranara.jpg",
                     "type": "person",
                     "counselees": []
                   }
@@ -89,7 +89,7 @@
                 "name": "Santiago Celorrio",
                 "email": "Santiago.Celorrio@gds.ey.com",
                 "rank": "Manager",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/SantiagoCelorrio.jpg",
+                "avatar": "assets/fotos/SantiagoCelorrio.jpg",
                 "type": "person",
                 "counselees": []
               },
@@ -97,7 +97,7 @@
                 "name": "Polo Attadía",
                 "email": "Polo.Attadia@gds.ey.com",
                 "rank": "Senior",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/PoloAttadía.jpg",
+                "avatar": "assets/fotos/PoloAttadía.jpg",
                 "type": "person",
                 "counselees": []
               }
@@ -107,21 +107,21 @@
             "name": "Marcelo Iglesias",
             "email": "Marcelo.Iglesias@gds.ey.com",
             "rank": "Manager",
-            "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/MarceloIglesias.jpg",
+            "avatar": "assets/fotos/MarceloIglesias.jpg",
             "type": "person",
             "counselees": [
               {
                 "name": "Sebastián P Simone",
                 "email": "Sebastian.P.Simone@gds.ey.com",
                 "rank": "Manager",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/SebastiánPSimone.jpg",
+                "avatar": "assets/fotos/SebastiánPSimone.jpg",
                 "type": "person",
                 "counselees": [
                   {
                     "name": "Alejandra Parejo Nucete",
                     "email": "Alejandra.Parejo.Nucete@gds.ey.com",
                     "rank": "Senior",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/AlejandraParejoNucete.jpg",
+                    "avatar": "assets/fotos/AlejandraParejoNucete.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -129,7 +129,7 @@
                     "name": "Maria R Narvaez",
                     "email": "Maria.Narvaez@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/MariaRNarvaez.jpg",
+                    "avatar": "assets/fotos/MariaRNarvaez.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -137,7 +137,7 @@
                     "name": "Andrea Travaglio Crisafi",
                     "email": "Andrea.Travaglio.Crisafi@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/AndreaTravaglioCrisafi.jpg",
+                    "avatar": "assets/fotos/AndreaTravaglioCrisafi.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -145,7 +145,7 @@
                     "name": "Gabriela N Favala",
                     "email": "Gabriela.Favala@gds.ey.com",
                     "rank": "Senior",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/GabrielaNFavala.jpg",
+                    "avatar": "assets/fotos/GabrielaNFavala.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -161,7 +161,7 @@
                     "name": "Luisina G Helu Iseli",
                     "email": "Luisina.Helu.Iseli@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/LuisinaGHeluIseli.jpg",
+                    "avatar": "assets/fotos/LuisinaGHeluIseli.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -169,7 +169,7 @@
                     "name": "Santiago J Barrionuevo",
                     "email": "Santiago.Barrionuevo@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/SantiagoJBarrionuevo.jpg",
+                    "avatar": "assets/fotos/SantiagoJBarrionuevo.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -177,7 +177,7 @@
                     "name": "Alejandro F Florez Gregorian",
                     "email": "Alejandro.Florez.Gregorian@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/AlejandroFFlorezGregorian.jpg",
+                    "avatar": "assets/fotos/AlejandroFFlorezGregorian.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -193,7 +193,7 @@
                     "name": "Nicole N Contreras",
                     "email": "Nicole.Contreras@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/NicoleNContreras.jpg",
+                    "avatar": "assets/fotos/NicoleNContreras.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -201,7 +201,7 @@
                     "name": "Florencia S Gomez",
                     "email": "Florencia.Gomez@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/FlorenciaSGomez.jpg",
+                    "avatar": "assets/fotos/FlorenciaSGomez.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -209,7 +209,7 @@
                     "name": "Francisco J Piñero",
                     "email": "Francisco.Pinero@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/FranciscoJPiñero.jpg",
+                    "avatar": "assets/fotos/FranciscoJPiñero.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -217,7 +217,7 @@
                     "name": "Eugenia M Almenar",
                     "email": "Eugenia.Almenar@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/EugeniaMAlmenar.jpg",
+                    "avatar": "assets/fotos/EugeniaMAlmenar.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -225,7 +225,7 @@
                     "name": "Lisette L Alonso",
                     "email": "Lisette.Alonso@gds.ey.com",
                     "rank": "Senior",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/LisetteLAlonso.jpg",
+                    "avatar": "assets/fotos/LisetteLAlonso.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -233,7 +233,7 @@
                     "name": "Fabiola F Ramos Lopez",
                     "email": "Fabiola.Ramos.Lopez@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/FabiolaFRamosLopez.jpg",
+                    "avatar": "assets/fotos/FabiolaFRamosLopez.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -249,7 +249,7 @@
                     "name": "Claudio E Francavilla",
                     "email": "Claudio.Francavilla@gds.ey.com",
                     "rank": "Senior",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/ClaudioEFrancavilla.jpg",
+                    "avatar": "assets/fotos/ClaudioEFrancavilla.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -283,14 +283,14 @@
                 "name": "Vanessa Neira Murillo",
                 "email": "Maria.V.Neira.Murillo@gds.ey.com",
                 "rank": "Senior",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/VanessaNeiraMurillo.jpg",
+                "avatar": "assets/fotos/VanessaNeiraMurillo.jpg",
                 "type": "person",
                 "counselees": [
                   {
                     "name": "Jacinta Vayo",
                     "email": "Jacinta.Vayo@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/JacintaVayo.jpg",
+                    "avatar": "assets/fotos/JacintaVayo.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -298,7 +298,7 @@
                     "name": "Mauricio D Tamaki",
                     "email": "Mauricio.Tamaki@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/MauricioDTamaki.jpg",
+                    "avatar": "assets/fotos/MauricioDTamaki.jpg",
                     "type": "person",
                     "counselees": []
                   }
@@ -308,14 +308,14 @@
                 "name": "Tomas E Marzetti",
                 "email": "Tomas.E.Marzetti@gds.ey.com",
                 "rank": "Staff/Assistant",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/TomasEMarzetti.jpg",
+                "avatar": "assets/fotos/TomasEMarzetti.jpg",
                 "type": "person",
                 "counselees": [
                   {
                     "name": "Carolina Wilberg",
                     "email": "Carolina.Wilberg@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/CarolinaWilberg.jpg",
+                    "avatar": "assets/fotos/CarolinaWilberg.jpg",
                     "type": "person",
                     "counselees": []
                   }
@@ -325,7 +325,7 @@
                 "name": "Julián D Iglesias",
                 "email": "Julian.D.Iglesias@gds.ey.com",
                 "rank": "Senior",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/JuliánDIglesias.jpg",
+                "avatar": "assets/fotos/JuliánDIglesias.jpg",
                 "type": "person",
                 "counselees": []
               },
@@ -333,7 +333,7 @@
                 "name": "David Aseijas",
                 "email": "David.Aseijas@gds.ey.com",
                 "rank": "Senior",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/DavidAseijas.jpg",
+                "avatar": "assets/fotos/DavidAseijas.jpg",
                 "type": "person",
                 "counselees": []
               },
@@ -341,7 +341,7 @@
                 "name": "Leandro A Micolucci",
                 "email": "Leandro.Micolucci@gds.ey.com",
                 "rank": "Senior",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/LeandroAMicolucci.jpg",
+                "avatar": "assets/fotos/LeandroAMicolucci.jpg",
                 "type": "person",
                 "counselees": []
               }
@@ -351,14 +351,14 @@
             "name": "Federico Salagaray",
             "email": "Federico.Salagaray@gds.ey.com",
             "rank": "Manager",
-            "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/FedericoSalagaray.jpg",
+            "avatar": "assets/fotos/FedericoSalagaray.jpg",
             "type": "person",
             "counselees": [
               {
                 "name": "Franco J Cubisino",
                 "email": "Franco.J.Cubisino@gds.ey.com",
                 "rank": "Senior",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/FrancoJCubisino.jpg",
+                "avatar": "assets/fotos/FrancoJCubisino.jpg",
                 "type": "person",
                 "counselees": []
               },
@@ -366,7 +366,7 @@
                 "name": "Laura A Caretti",
                 "email": "Laura.Caretti@gds.ey.com",
                 "rank": "Senior",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/LauraACaretti.jpg",
+                "avatar": "assets/fotos/LauraACaretti.jpg",
                 "type": "person",
                 "counselees": []
               }
@@ -376,28 +376,28 @@
             "name": "Matias H Sola",
             "email": "Matias.H.Sola@gds.ey.com",
             "rank": "Senior",
-            "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/MatiasHSola.jpg",
+            "avatar": "assets/fotos/MatiasHSola.jpg",
             "type": "person",
             "counselees": [
               {
                 "name": "Maximiliano J Tabares Martinez",
                 "email": "Maximiliano.J.Tabares.Martinez@gds.ey.com",
                 "rank": "Senior",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/MaximilianoJTabaresMartinez.jpg",
+                "avatar": "assets/fotos/MaximilianoJTabaresMartinez.jpg",
                 "type": "person",
                 "counselees": [
                   {
                     "name": "Rodrigo M Carande",
                     "email": "Rodrigo.M.Carande@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/RodrigoMCarande.jpg",
+                    "avatar": "assets/fotos/RodrigoMCarande.jpg",
                     "type": "person",
                     "counselees": [
                       {
                         "name": "Giuliana M Cravotta",
                         "email": "Giuliana.Cravotta@gds.ey.com",
                         "rank": "Staff/Assistant",
-                        "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/GiulianaMCravotta.jpg",
+                        "avatar": "assets/fotos/GiulianaMCravotta.jpg",
                         "type": "person",
                         "counselees": []
                       }
@@ -407,7 +407,7 @@
                     "name": "Santiago N Herrera",
                     "email": "Santiago.Herrera@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/SantiagoNHerrera.jpg",
+                    "avatar": "assets/fotos/SantiagoNHerrera.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -415,7 +415,7 @@
                     "name": "Lucía B Rizzo",
                     "email": "Lucia.Rizzo@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/LucíaBRizzo.jpg",
+                    "avatar": "assets/fotos/LucíaBRizzo.jpg",
                     "type": "person",
                     "counselees": []
                   }
@@ -425,7 +425,7 @@
                 "name": "Camila A Grosz",
                 "email": "Camila.Grosz@gds.ey.com",
                 "rank": "Staff/Assistant",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/CamilaAGrosz.jpg",
+                "avatar": "assets/fotos/CamilaAGrosz.jpg",
                 "type": "person",
                 "counselees": []
               },
@@ -433,7 +433,7 @@
                 "name": "Karen D Argüello",
                 "email": "Karen.D.Arguello@gds.ey.com",
                 "rank": "Staff/Assistant",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/KarenDArgüello.jpg",
+                "avatar": "assets/fotos/KarenDArgüello.jpg",
                 "type": "person",
                 "counselees": []
               },
@@ -441,7 +441,7 @@
                 "name": "Martín R Taddeo",
                 "email": "Martin.Taddeo@gds.ey.com",
                 "rank": "Senior",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/MartínRTaddeo.jpg",
+                "avatar": "assets/fotos/MartínRTaddeo.jpg",
                 "type": "person",
                 "counselees": []
               }
@@ -451,21 +451,21 @@
             "name": "Carolina Murgi",
             "email": "Maria.C.Murgi@gds.ey.com",
             "rank": "Manager",
-            "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/CarolinaMurgi.jpg",
+            "avatar": "assets/fotos/CarolinaMurgi.jpg",
             "type": "person",
             "counselees": [
               {
                 "name": "Philips J Añangurens Aguilarte",
                 "email": "Philips.J.Anangurens.Aguilarte@gds.ey.com",
                 "rank": "Senior",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/PhilipsJAñangurensAguilarte.jpg",
+                "avatar": "assets/fotos/PhilipsJAñangurensAguilarte.jpg",
                 "type": "person",
                 "counselees": [
                   {
                     "name": "Juan I Garcia",
                     "email": "Juan.Garcia.Zamora@gds.ey.com",
                     "rank": "Senior",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/JuanIGarcia.jpg",
+                    "avatar": "assets/fotos/JuanIGarcia.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -483,14 +483,14 @@
                 "name": "Maria V Manzanilla Toro",
                 "email": "Maria.V.Manzanilla.Toro@gds.ey.com",
                 "rank": "Senior",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/MariaVManzanillaToro.jpg",
+                "avatar": "assets/fotos/MariaVManzanillaToro.jpg",
                 "type": "person",
                 "counselees": [
                   {
                     "name": "Matias L Occhiuzzi",
                     "email": "Matias.Occhiuzzi@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/MatiasLOcchiuzzi.jpg",
+                    "avatar": "assets/fotos/MatiasLOcchiuzzi.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -498,7 +498,7 @@
                     "name": "Matias A Gaser",
                     "email": "Matias.Gaser@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/MatiasAGaser.jpg",
+                    "avatar": "assets/fotos/MatiasAGaser.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -516,14 +516,14 @@
                 "name": "Cristian M Ferraris",
                 "email": "Cristian.M.Ferraris@gds.ey.com",
                 "rank": "Senior",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/CristianMFerraris.jpg",
+                "avatar": "assets/fotos/CristianMFerraris.jpg",
                 "type": "person",
                 "counselees": [
                   {
                     "name": "Benjamin S Hinojo",
                     "email": "Benjamin.Hinojo@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/BenjaminSHinojo.jpg",
+                    "avatar": "assets/fotos/BenjaminSHinojo.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -531,7 +531,7 @@
                     "name": "Nicolas Mastrangelo",
                     "email": "Nicolas.Mastrangelo@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/NicolasMastrangelo.jpg",
+                    "avatar": "assets/fotos/NicolasMastrangelo.jpg",
                     "type": "person",
                     "counselees": []
                   }
@@ -541,7 +541,7 @@
                 "name": "Isabel De Ugarte",
                 "email": "Isabel.De.Ugarte@gds.ey.com",
                 "rank": "Senior",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/IsabelDeUgarte.jpg",
+                "avatar": "assets/fotos/IsabelDeUgarte.jpg",
                 "type": "person",
                 "counselees": []
               },
@@ -549,7 +549,7 @@
                 "name": "Andrés E Bianchi",
                 "email": "Andres.Bianchi@gds.ey.com",
                 "rank": "Senior",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/AndrésEBianchi.jpg",
+                "avatar": "assets/fotos/AndrésEBianchi.jpg",
                 "type": "person",
                 "counselees": []
               }
@@ -559,21 +559,21 @@
             "name": "Douglas F Borrero Villamizar",
             "email": "Douglas.F.Borrero.Villamizar@gds.ey.com",
             "rank": "Manager",
-            "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/DouglasFBorreroVillamizar.jpg",
+            "avatar": "assets/fotos/DouglasFBorreroVillamizar.jpg",
             "type": "person",
             "counselees": [
               {
                 "name": "Ruben Cordero",
                 "email": "Ruben.Cordero@gds.ey.com",
                 "rank": "Senior",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/RubenCordero.jpg",
+                "avatar": "assets/fotos/RubenCordero.jpg",
                 "type": "person",
                 "counselees": [
                   {
                     "name": "Federico Delgado",
                     "email": "Federico.Delgado@gds.ey.com",
                     "rank": "Senior",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/FedericoDelgado.jpg",
+                    "avatar": "assets/fotos/FedericoDelgado.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -581,7 +581,7 @@
                     "name": "Ramiro Bernal",
                     "email": "Ramiro.Bernal@gds.ey.com",
                     "rank": "Senior",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/RamiroBernal.jpg",
+                    "avatar": "assets/fotos/RamiroBernal.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -589,7 +589,7 @@
                     "name": "Patricio T Monpelat",
                     "email": "Patricio.Monpelat@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/PatricioTMonpelat.jpg",
+                    "avatar": "assets/fotos/PatricioTMonpelat.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -597,7 +597,7 @@
                     "name": "Damian A Diez",
                     "email": "Damian.Diez@gds.ey.com",
                     "rank": "Senior",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/DamianADiez.jpg",
+                    "avatar": "assets/fotos/DamianADiez.jpg",
                     "type": "person",
                     "counselees": []
                   }
@@ -607,14 +607,14 @@
                 "name": "Luciano A Manfroni",
                 "email": "Luciano.A.Manfroni@gds.ey.com",
                 "rank": "Senior",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/LucianoAManfroni.jpg",
+                "avatar": "assets/fotos/LucianoAManfroni.jpg",
                 "type": "person",
                 "counselees": [
                   {
                     "name": "Lucas R Silva",
                     "email": "Lucas.Silva@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/LucasRSilva.jpg",
+                    "avatar": "assets/fotos/LucasRSilva.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -622,7 +622,7 @@
                     "name": "Marcelo Romero Giacalone",
                     "email": "Marcelo.Romero@gds.ey.com",
                     "rank": "Senior",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/MarceloRomeroGiacalone.jpg",
+                    "avatar": "assets/fotos/MarceloRomeroGiacalone.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -630,7 +630,7 @@
                     "name": "María D Torres",
                     "email": "Maria.Torres@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/MaríaDTorres.jpg",
+                    "avatar": "assets/fotos/MaríaDTorres.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -638,7 +638,7 @@
                     "name": "Daiana Y Ortiz",
                     "email": "Daiana.Ortiz@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/DaianaYOrtiz.jpg",
+                    "avatar": "assets/fotos/DaianaYOrtiz.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -646,7 +646,7 @@
                     "name": "Braian E Sanchez",
                     "email": "Braian.Sanchez@gds.ey.com",
                     "rank": "Senior",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/BraianESanchez.jpg",
+                    "avatar": "assets/fotos/BraianESanchez.jpg",
                     "type": "person",
                     "counselees": []
                   }
@@ -656,21 +656,21 @@
                 "name": "Maximiliano E Pozzi",
                 "email": "Maximiliano.E.Pozzi@gds.ey.com",
                 "rank": "Senior",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/MaximilianoEPozzi.jpg",
+                "avatar": "assets/fotos/MaximilianoEPozzi.jpg",
                 "type": "person",
                 "counselees": [
                   {
                     "name": "Anna M Fernández Hinojosa",
                     "email": "Anna.M.Fernandez.Hinojosa@gds.ey.com",
                     "rank": "Senior",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/AnnaMFernándezHinojosa.jpg",
+                    "avatar": "assets/fotos/AnnaMFernándezHinojosa.jpg",
                     "type": "person",
                     "counselees": [
                       {
                         "name": "María R Montaño Torrico",
                         "email": "Maria.Montano.Torrico@gds.ey.com",
                         "rank": "Staff/Assistant",
-                        "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/MaríaRMontañoTorrico.jpg",
+                        "avatar": "assets/fotos/MaríaRMontañoTorrico.jpg",
                         "type": "person",
                         "counselees": []
                       },
@@ -678,7 +678,7 @@
                         "name": "Micaela T Cayo",
                         "email": "Micaela.Cayo@gds.ey.com",
                         "rank": "Staff/Assistant",
-                        "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/MicaelaTCayo.jpg",
+                        "avatar": "assets/fotos/MicaelaTCayo.jpg",
                         "type": "person",
                         "counselees": []
                       }
@@ -688,7 +688,7 @@
                     "name": "Gaston Moscarda",
                     "email": "Gaston.Moscarda@gds.ey.com",
                     "rank": "Senior",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/GastonMoscarda.jpg",
+                    "avatar": "assets/fotos/GastonMoscarda.jpg",
                     "type": "person",
                     "counselees": [
                       {
@@ -705,7 +705,7 @@
                     "name": "Quimey N Orosco",
                     "email": "Quimey.N.Orosco@gds.ey.com",
                     "rank": "Senior",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/QuimeyNOrosco.jpg",
+                    "avatar": "assets/fotos/QuimeyNOrosco.jpg",
                     "type": "person",
                     "counselees": [
                       {
@@ -730,7 +730,7 @@
                     "name": "Anabel A Aramayo",
                     "email": "Anabel.Aramayo@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/AnabelAAramayo.jpg",
+                    "avatar": "assets/fotos/AnabelAAramayo.jpg",
                     "type": "person",
                     "counselees": []
                   },
@@ -738,7 +738,7 @@
                     "name": "Lisandro A Martin",
                     "email": "Lisandro.Martin@gds.ey.com",
                     "rank": "Staff/Assistant",
-                    "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/LisandroAMartin.jpg",
+                    "avatar": "assets/fotos/LisandroAMartin.jpg",
                     "type": "person",
                     "counselees": []
                   }
@@ -748,7 +748,7 @@
                 "name": "Francisco J Gimenez",
                 "email": "Francisco.Gimenez@gds.ey.com",
                 "rank": "Staff/Assistant",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/FranciscoJGimenez.jpg",
+                "avatar": "assets/fotos/FranciscoJGimenez.jpg",
                 "type": "person",
                 "counselees": []
               },
@@ -756,7 +756,7 @@
                 "name": "Laura M Gorostegui",
                 "email": "Laura.Gorostegui@gds.ey.com",
                 "rank": "Manager",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/LauraMGorostegui.jpg",
+                "avatar": "assets/fotos/LauraMGorostegui.jpg",
                 "type": "person",
                 "counselees": []
               },
@@ -764,7 +764,7 @@
                 "name": "Damian D Sanchez Zarfino",
                 "email": "Damian.Sanchez.Zarfino@gds.ey.com",
                 "rank": "Staff/Assistant",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/DamianDSanchezZarfino.jpg",
+                "avatar": "assets/fotos/DamianDSanchezZarfino.jpg",
                 "type": "person",
                 "counselees": []
               },
@@ -782,14 +782,14 @@
             "name": "Pablo E Caracciolo",
             "email": "Pablo.E.Caracciolo@gds.ey.com",
             "rank": "Senior",
-            "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/PabloECaracciolo.jpg",
+            "avatar": "assets/fotos/PabloECaracciolo.jpg",
             "type": "person",
             "counselees": [
               {
                 "name": "Rocio Suarez Galan",
                 "email": "Rocio.Suarez.Galan@gds.ey.com",
                 "rank": "Staff/Assistant",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/RocioSuarezGalan.jpg",
+                "avatar": "assets/fotos/RocioSuarezGalan.jpg",
                 "type": "person",
                 "counselees": []
               },
@@ -797,7 +797,7 @@
                 "name": "Ivan Coda",
                 "email": "Ivan.Coda@gds.ey.com",
                 "rank": "Staff/Assistant",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/IvanCoda.jpg",
+                "avatar": "assets/fotos/IvanCoda.jpg",
                 "type": "person",
                 "counselees": []
               },
@@ -805,7 +805,7 @@
                 "name": "Alexandra V Abbate",
                 "email": "Alexandra.Abbate@gds.ey.com",
                 "rank": "Staff/Assistant",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/AlexandraVAbbate.jpg",
+                "avatar": "assets/fotos/AlexandraVAbbate.jpg",
                 "type": "person",
                 "counselees": []
               },
@@ -813,7 +813,7 @@
                 "name": "Diego N Rinaudo",
                 "email": "Diego.Rinaudo@gds.ey.com",
                 "rank": "Staff/Assistant",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/DiegoNRinaudo.jpg",
+                "avatar": "assets/fotos/DiegoNRinaudo.jpg",
                 "type": "person",
                 "counselees": []
               },
@@ -929,21 +929,21 @@
         "name": "Sabrina M Silva",
         "email": "Sabrina.M.Silva@gds.ey.com",
         "rank": "Senior Manager",
-        "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/SabrinaMSilva.jpg",
+        "avatar": "assets/fotos/SabrinaMSilva.jpg",
         "type": "person",
         "counselees": [
           {
             "name": "Gaston S Parodi",
             "email": "Gaston.Parodi@gds.ey.com",
             "rank": "Manager",
-            "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/GastonSParodi.jpg",
+            "avatar": "assets/fotos/GastonSParodi.jpg",
             "type": "person",
             "counselees": [
               {
                 "name": "Rolando J Melian",
                 "email": "Rolando.J.Melian@gds.ey.com",
                 "rank": "Senior",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/RolandoJMelian.jpg",
+                "avatar": "assets/fotos/RolandoJMelian.jpg",
                 "type": "person",
                 "counselees": []
               },
@@ -951,7 +951,7 @@
                 "name": "Florencia Curotto",
                 "email": "Florencia.Curotto@gds.ey.com",
                 "rank": "Senior",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/FlorenciaCurotto.jpg",
+                "avatar": "assets/fotos/FlorenciaCurotto.jpg",
                 "type": "person",
                 "counselees": []
               },
@@ -959,7 +959,7 @@
                 "name": "Javier A Barbero",
                 "email": "Javier.Barbero@gds.ey.com",
                 "rank": "Senior",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/JavierABarbero.jpg",
+                "avatar": "assets/fotos/JavierABarbero.jpg",
                 "type": "person",
                 "counselees": []
               },
@@ -967,7 +967,7 @@
                 "name": "Federico O Barbagallo",
                 "email": "Federico.Barbagallo@gds.ey.com",
                 "rank": "Senior",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/FedericoOBarbagallo.jpg",
+                "avatar": "assets/fotos/FedericoOBarbagallo.jpg",
                 "type": "person",
                 "counselees": []
               },
@@ -975,7 +975,7 @@
                 "name": "Eric D Mackrill",
                 "email": "Eric.Mackrill@gds.ey.com",
                 "rank": "Senior",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/EricDMackrill.jpg",
+                "avatar": "assets/fotos/EricDMackrill.jpg",
                 "type": "person",
                 "counselees": []
               },
@@ -983,7 +983,7 @@
                 "name": "Sheila M Medero",
                 "email": "Sheila.Medero@gds.ey.com",
                 "rank": "Senior",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/SheilaMMedero.jpg",
+                "avatar": "assets/fotos/SheilaMMedero.jpg",
                 "type": "person",
                 "counselees": []
               },
@@ -991,7 +991,7 @@
                 "name": "Roberto J Perez",
                 "email": "Roberto.Perez@gds.ey.com",
                 "rank": "Senior",
-                "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/RobertoJPerez.jpg",
+                "avatar": "assets/fotos/RobertoJPerez.jpg",
                 "type": "person",
                 "counselees": []
               },
@@ -1009,7 +1009,7 @@
             "name": "Alejandro Vazquez",
             "email": "Alejandro.Vazquez1@gds.ey.com",
             "rank": "Senior",
-            "avatar": "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/AlejandroVazquez.jpg",
+            "avatar": "assets/fotos/AlejandroVazquez.jpg",
             "type": "person",
             "counselees": []
           },

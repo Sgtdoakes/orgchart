@@ -2,7 +2,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { TreeNode } from 'primeng/api';  
 // import { HttpClient } from '@angular/common/http';
 import { Counselor } from '../models/counselor.model';
-// import data from 'src/assets/ttteam.json';
+import data from 'src/assets/ttteam.json';
 import { JsonService } from '../services/json.service';
   
 @Component({  
@@ -25,10 +25,21 @@ export class OrgchartComponent implements OnInit {
     staffCount = 0;
 
     ngOnInit(): void {
-        this.jsonService.getCounselors().subscribe(json => {
-            this.counselorNodes.push(this.counselorToTreeNode(<Counselor>json));
-        });
-        
+        this.jsonService.getCounselors().subscribe(json => {            
+            this.counselorNodes = [
+                {
+                    label: "Ajay Samuel",
+                    data: {avatar: "assets/fotos/AjaySamuel.jpg",
+                            name: "Ajay Samuel",
+                            email: "",
+                            rank: "Executive Director",
+                        type: "person",
+                        counselees: []},
+                    expanded: true,
+                    children: handler(<Counselor>json).children
+                }
+            ];
+        });        
     }   
         
     countingCounselees(counselor: Counselor){
@@ -51,7 +62,6 @@ export class OrgchartComponent implements OnInit {
                 return 0;
         }
     }
-
     
     private counselorToTreeNode(counselor: Counselor): TreeNode {
         let counselorTreeNodes: TreeNode[] = [];
@@ -68,3 +78,17 @@ export class OrgchartComponent implements OnInit {
         };    
     }
 }  
+function handler(counselor: Counselor) {    
+    let counselorTreeNodes: TreeNode[] = [];
+        
+    for (let c of counselor.counselees) {
+        counselorTreeNodes.push(handler(c));
+    }
+
+    return {
+        label: counselor.name,
+        data: counselor,
+        children: counselorTreeNodes,
+        expanded: true
+    };    
+}
