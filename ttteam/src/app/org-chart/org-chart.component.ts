@@ -1,8 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';  
 import { TreeNode } from 'primeng/api';  
-// import { HttpClient } from '@angular/common/http';
 import { Counselor } from '../models/counselor.model';
-import data from 'src/assets/ttteam.json';
 import { JsonService } from '../services/json.service';
   
 @Component({  
@@ -29,16 +27,16 @@ export class OrgchartComponent implements OnInit {
             this.counselorNodes = [
                 {
                     label: "Ajay Samuel",
-                    data: {avatar: "assets/fotos/AjaySamuel.jpg",
+                    data: {avatar: "sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/assets/fotos/AjaySamuel.jpg",
                             name: "Ajay Samuel",
                             email: "",
                             rank: "Executive Director",
                         type: "person",
                         counselees: []},
                     expanded: true,
-                    children: handler(<Counselor>json).children
+                    children: counselorToTreeNode(<Counselor>json).children
                 }
-            ];
+             ];
         });        
     }   
         
@@ -62,33 +60,23 @@ export class OrgchartComponent implements OnInit {
                 return 0;
         }
     }
-    
-    private counselorToTreeNode(counselor: Counselor): TreeNode {
-        let counselorTreeNodes: TreeNode[] = [];
-        
-        for (let c of counselor.counselees) {
-            counselorTreeNodes.push(this.counselorToTreeNode(c));
-        }
-
-        return {
-            label: counselor.name,
-            data: counselor,
-            children: counselorTreeNodes,
-            expanded: true
-        };    
-    }
 }  
-function handler(counselor: Counselor) {    
+function counselorToTreeNode(counselor: Counselor) {    
     let counselorTreeNodes: TreeNode[] = [];
         
     for (let c of counselor.counselees) {
-        counselorTreeNodes.push(handler(c));
+        counselorTreeNodes.push(counselorToTreeNode(c));
+    }
+    let expanded = false;
+
+    if(counselor.name == 'Gustavo Orteu' || counselor.name ==  'Sabrina M Silva') {
+        expanded = true
     }
 
     return {
         label: counselor.name,
         data: counselor,
         children: counselorTreeNodes,
-        expanded: true
-    };    
+        expanded: expanded
+    };
 }
