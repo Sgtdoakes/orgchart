@@ -9,6 +9,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { APP_INITIALIZER } from '@angular/core';
 import { environment } from '../environments/environment';
 import { JsonService } from './services/json.service';
+import {TableModule} from 'primeng/table';
 
 @NgModule({  
   declarations: [  
@@ -16,7 +17,7 @@ import { JsonService } from './services/json.service';
     OrgchartComponent
   ],  
   imports: [  
-    BrowserModule,HttpClientModule,OrganizationChartModule,BrowserAnimationsModule, NgbModule  
+    BrowserModule,HttpClientModule,OrganizationChartModule,BrowserAnimationsModule, NgbModule, TableModule  
   ],  
   providers: [
     JsonService,

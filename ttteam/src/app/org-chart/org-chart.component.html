@@ -7,18 +7,12 @@
       <div class="menu-item"><span class="orange-reference-dot"></span><p class="menu-text">Just above range (+1)</p></div>
       <div class="menu-item"><span class="red-reference-dot"></span><p class="menu-text">Well above range (+3)</p></div>
       <div class="menu-item"><p class="menu-text">&nbsp;</p></div>
-      <!-- <div class="menu-item"><p class="menu-text" style="font-weight: bold;">Thresholds per rank</p></div>
-      <div class="menu-item"><p class="menu-text">Senior Manager: {{seniorManagerCount}}</p></div>
-      <div class="menu-item"><p class="menu-text">Manager:  {{managerCount}}</p></div>
-      <div class="menu-item"><p class="menu-text">Assistant Manager:  {{assistantManagerCount}}</p></div>
-      <div class="menu-item"><p class="menu-text">Senior:  {{seniorCount}}</p></div>
-      <div class="menu-item"><p class="menu-text">Staff/Assistant:  {{staffCount}}</p></div> -->
     </div>
 
   <p-organizationChart [value]="counselorNodes" selectionMode="single" [(selection)]="selectedNode" [preserveSpace]=false class="horizontalChart">
     <ng-template let-node pTemplate="default" class="horizontalNode">
-      <div class="node-content row e" style=" width: 225px !important; margin-top: -11px; margin-bottom: -11px;">
-        <div class="photo" [style.background-image]="!!node.data.avatar ? 'url(\'' + node.data.avatar + '\')' : 'url(\'' + 'sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/assets/fotos/imagengenérica.jpg' + '\')'" 
+      <div class="node-content row e" style="width: 225px !important; height: 303px !important; margin-top: -11px; margin-bottom: -11px;">
+        <div class="photo" [style.background-image]="!!node.data.avatar ? 'url(\'' + node.data.avatar + '\')' : 'url(\'' + 'assets/fotos/imagengenérica.jpg' + '\')'" 
           [ngClass]="node.data.rank == 'Executive Director' ? 'node-content-mute' : getCountForRank(node.data.rank) == 0 && node.children.length == 0 ? 'node-content-mute' :
            node.children.length >= getCountForRank(node.data.rank) + 3 ? 'node-content-red' : 
            node.children.length >= getCountForRank(node.data.rank) + 1 ? 'node-content-orange' : 'node-content-green'"></div>
@@ -34,5 +28,27 @@
         </div>
       </div>
     </ng-template>
-  </p-organizationChart>
+  </p-organizationChart>    
+  <p-table #dt [columns]="cols" [value]="counselorNodes" [paginator]="true" [rows]="10" responsiveLayout="scroll">
+    <ng-template pTemplate="header" let-columns>
+      <tr>
+        <th *ngFor="let col of columns">
+          {{col.header}}
+        </th>
+      </tr>
+      <tr>
+        <th *ngFor="let col of columns">
+          <p-columnFilter type="text" [field]="col.field" [matchModeOptions]="matchModeOptions"
+            [matchMode]="'custom-equals'"></p-columnFilter>
+        </th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-rowData let-columns="columns">
+      <tr [pSelectableRow]="rowData">
+        <td *ngFor="let col of columns">
+          {{rowData[col.field]}}
+        </td>
+      </tr>
+    </ng-template>
+  </p-table>
 </div>

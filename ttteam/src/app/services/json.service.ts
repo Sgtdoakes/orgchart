@@ -16,8 +16,6 @@ export class JsonService {
 
   load(jsonURL: string) {
     this.jsonURL = jsonURL;
-    // .subscribe(data => {
-    //   this.jsonData = new Observable<Counselor>((observer) => observer.next(<Counselor>data))//.next(<Counselor>data);
   }
 
   getCounselors() {

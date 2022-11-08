@@ -1,4 +1,5 @@
-import { Component, OnInit, ViewChild } from '@angular/core';  
+import { Component, OnInit } from '@angular/core';  
+import { SelectItem, FilterService, FilterMatchMode } from "primeng/api";
 import { TreeNode } from 'primeng/api';  
 import { Counselor } from '../models/counselor.model';
 import { JsonService } from '../services/json.service';
@@ -12,9 +13,12 @@ import { JsonService } from '../services/json.service';
 
 export class OrgchartComponent implements OnInit {  
 
-  constructor(private jsonService:JsonService) { }
+  constructor(private jsonService:JsonService,
+    private filterService: FilterService) { }
     counselorNodes:TreeNode<Counselor>[] = [];
     selectedNode: TreeNode<Counselor>[] = [];
+    matchModeOptions: SelectItem[] = [];
+    cols: any[] = [];
     counseleeCount = 0;
     seniorManagerCount = 6;
     managerCount = 6;
@@ -27,7 +31,7 @@ export class OrgchartComponent implements OnInit {
             this.counselorNodes = [
                 {
                     label: "Ajay Samuel",
-                    data: {avatar: "sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/assets/fotos/AjaySamuel.jpg",
+                    data: {avatar: "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/AjaySamuel.jpg",
                             name: "Ajay Samuel",
                             email: "",
                             rank: "Executive Director",
@@ -37,7 +41,35 @@ export class OrgchartComponent implements OnInit {
                     children: counselorToTreeNode(<Counselor>json).children
                 }
              ];
-        });        
+        });
+        const customFilterName = "custom-equals";
+        
+        this.filterService.register(
+            customFilterName,
+            (value: { toString: () => string; } | null | undefined, filter: string | null | undefined) => {
+              if (filter === undefined || filter === null || filter.trim() === "") {
+                return true;
+              }
+      
+              if (value === undefined || value === null) {
+                return false;
+              }
+      
+              return value.toString() === filter.toString();
+            }
+          );
+
+          this.cols = [
+            { field: "rank", header: "Rank" },
+            { field: "counselees", header: "Counselees" },
+            { field: "color", header: "Color" }
+          ];
+      
+          this.matchModeOptions = [
+            { label: "Custom Equals", value: customFilterName },
+            { label: "Starts With", value: FilterMatchMode.STARTS_WITH },
+            { label: "Contains", value: FilterMatchMode.CONTAINS }
+          ];
     }   
         
     countingCounselees(counselor: Counselor){

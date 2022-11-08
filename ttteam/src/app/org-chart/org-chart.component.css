@@ -3,21 +3,6 @@
   padding-left: 0px !important;
 }
 
-.horizontalChart{
-  -webkit-transform: rotate(-90deg) !important;
-  -moz-transform: rotate(-90deg)!important;
-  -o-transform: rotate(-90deg)!important;
-  -ms-transform: rotate(-90deg)!important;
-  transform: rotate(-90deg)!important;
-  }
-  .horizontalNode {
-    -webkit-transform: rotate(90deg)!important;
-  -moz-transform: rotate(90deg)!important;
-  -o-transform: rotate(90deg)!important;
-  -ms-transform: rotate(90deg)!important;
-  transform: rotate(90deg)!important;
-  }
-
 .detail-box {
   width:500px;
   height:100px;
@@ -26,7 +11,6 @@
   margin-bottom: 30px;
   position: absolute !important;
 }
-
 
 .green-reference-dot {
   height: 3vh;
@@ -53,12 +37,12 @@
 }
 
 .container {
-  background-color: rgb(255, 255, 255) !important;
+  background-color: #1b1b25 !important;
   display: 	inline-table;
   width: 100%;
   font-size: 25px !important;
+  padding-bottom: 100px;
 }
-
 
 .badge {
   --bs-badge-color: #000000
@@ -70,10 +54,14 @@
 
 .rel_node_name{
   font-size: 25px;
+  color: #FFFFFF;
+  font-family: EYInterstate;
 }
 
 .rel_label_name{
-  font-size:25px;
+  font-size:17px;
+  color: #FFFFFF;  
+  font-family: EYInterstate;
 }
 
 .node-content-red  {
@@ -121,21 +109,17 @@
 
 .photo{
   border-radius: 50%;
-  height: 203px;
-  
+  height: 203px;  
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
   background-position: center; 
   background-size: cover; 
 }
 
-body {
-  transform: rotate(-90deg) !important;
-}
-
 :host /deep/ .p-organizationchart-selectable-node {
-border: 1px solid #000000;
+border: 1px solid #ffffff;
 border-radius: 20px;
+background: #23232F;
+box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 :host /deep/ .p-organizationchart-table {
@@ -143,34 +127,35 @@ border-radius: 20px;
 }
 
 :host /deep/ .p-organizationchart .p-organizationchart-line-top {
-  border-top: 1px solid #000000;
-  border-color: #000000;
+  border-top: 1px solid #ffffff;
+  border-color: #ffffff;
 }
 
-:host /deep/ .p-organizationchart-line-left{
-  display: 1px solid #000000;
-  border-color: #000000;
+:host /deep/ .p-organizationchart .p-organizationchart-line-left{
+  display: 1px solid #ffffff;
+  border-color: #ffffff;
 }
 
 :host /deep/ .p-organizationchart .p-organizationchart-node-content{
   font-weight: 600;
   color: #000000;
+  padding: 2rem;
 }
 
 :host /deep/ .p-organizationchart .p-organizationchart-node-content .p-node-toggler{
-  border: 1px solid #000000;
+  border: 1px solid #ffffff;
   color: #000000;
   font-weight: 1000;
+  color: #FFFFFF;
 }
 
 :host / .p-organizationchart .p-organizationchart-node-content:hover {  
-    background: #fbff00 !important;  
     cursor: pointer;
   }  
 
   :host /deep/ .p-organizationchart .p-organizationchart-line-down {  
     height: 30px !important;  
-    border: 1px solid #000000
+    border: #ffffff
   }  
   
   :host /deep/ .node-content {  
@@ -180,12 +165,10 @@ border-radius: 20px;
   
 .menu{
   width: 12vw;
-  /* height: 30vh; */
-  background-color: white;
-  padding: 1vw;
+  color: #ffffff;
+  background-color: #1b1b25;
   margin-right:auto;
-  border: 1px solid rgb(146, 146, 146);
-  position: fixed;
+  position: inherit;
   left: 0px;
   bottom: 0px;
   z-index: 10;
