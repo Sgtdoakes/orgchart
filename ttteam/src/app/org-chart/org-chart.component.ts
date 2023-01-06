@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';  
-import { SelectItem, FilterService, FilterMatchMode } from "primeng/api";
 import { TreeNode } from 'primeng/api';  
 import { Counselor } from '../models/counselor.model';
 import { JsonService } from '../services/json.service';
+import {NodeService} from '../services/nodeservice';
   
 @Component({  
   selector: 'app-orgchart',  
@@ -13,12 +13,9 @@ import { JsonService } from '../services/json.service';
 
 export class OrgchartComponent implements OnInit {  
 
-  constructor(private jsonService:JsonService,
-    private filterService: FilterService) { }
+  constructor(private jsonService:JsonService) { }
     counselorNodes:TreeNode<Counselor>[] = [];
     selectedNode: TreeNode<Counselor>[] = [];
-    matchModeOptions: SelectItem[] = [];
-    cols: any[] = [];
     counseleeCount = 0;
     seniorManagerCount = 6;
     managerCount = 6;
@@ -42,34 +39,6 @@ export class OrgchartComponent implements OnInit {
                 }
              ];
         });
-        const customFilterName = "custom-equals";
-        
-        this.filterService.register(
-            customFilterName,
-            (value: { toString: () => string; } | null | undefined, filter: string | null | undefined) => {
-              if (filter === undefined || filter === null || filter.trim() === "") {
-                return true;
-              }
-      
-              if (value === undefined || value === null) {
-                return false;
-              }
-      
-              return value.toString() === filter.toString();
-            }
-          );
-
-          this.cols = [
-            { field: "rank", header: "Rank" },
-            { field: "counselees", header: "Counselees" },
-            { field: "color", header: "Color" }
-          ];
-      
-          this.matchModeOptions = [
-            { label: "Custom Equals", value: customFilterName },
-            { label: "Starts With", value: FilterMatchMode.STARTS_WITH },
-            { label: "Contains", value: FilterMatchMode.CONTAINS }
-          ];
     }   
         
     countingCounselees(counselor: Counselor){

@@ -1,12 +1,39 @@
-.row>* {
-  padding-right: 0px !important;
-  padding-left: 0px !important;
+p {
+  font-family: EYInterstate;
+  color: #FFFFFF;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  left: 10px;
+  margin-left: -12px;
+  background-color: black;
+}
+
+
+.headerTitle{
+  display: initial;
+  padding-left: 35px;
+  padding-top: 5px;
+  font-family: EYInterstate;
+  color: #FFFFFF;
+  font-size: 30px;
+  vertical-align: -webkit-baseline-middle;
+}
+
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-left: 30px;
 }
 
 .detail-box {
-  width:500px;
-  height:100px;
-  border:1px solid rgb(0, 0, 0);
+  width: 500px;
+  height: 100px;
+  border: 1px solid rgb(0, 0, 0);
   margin-left: 500px;
   margin-bottom: 30px;
   position: absolute !important;
@@ -23,7 +50,7 @@
 .orange-reference-dot {
   height: 3vh;
   width: 1.5vw;
-  background-color: #ffbb00;
+  background-color: #FFE600;
   border-radius: 50%;
   display: inline-block;
 }
@@ -34,156 +61,171 @@
   background-color: #ff0000;
   border-radius: 50%;
   display: inline-block;
+  -right: 1rem;
 }
 
 .container {
   background-color: #1b1b25 !important;
-  display: 	inline-table;
+  display: inline-table;
   width: 100%;
   font-size: 25px !important;
-  padding-bottom: 100px;
+}
+
+:host /deep/ .p-highlight {
+  background: #23232F !important;
+}
+
+:host /deep/ .p-organizationchart .p-organizationchart-node-content.p-organizationchart-selectable-node:not(.p-highlight):hover {
+  background: #23232F !important;
 }
 
 .badge {
   --bs-badge-color: #000000
 }
 
-.node-header, .node-content {  
-    padding: .5em .7rem; 
-}  
+.rel_node_name {
+  font-size: 14px;
+  color: #FFFFFF;
+  font-family: EYInterstate;
+  text-align: center !important;
+}
 
-.rel_node_name{
-  font-size: 25px;
+.rel_label_name {
+  font-size: 12px;
   color: #FFFFFF;
   font-family: EYInterstate;
 }
 
-.rel_label_name{
-  font-size:17px;
-  color: #FFFFFF;  
-  font-family: EYInterstate;
+.node-content-red {
+  border: 5px solid #ff0000 !important;
 }
 
-.node-content-red  {
-    border: 10px solid #ff0000 !important;
-}  
-.node-content-orange  {
-    border: 10px solid #ffbb00 !important;
-}  
-.node-content-green  { 
-    border: 10px solid #18ce00 !important;
-}  
-.node-content-mute  {
-    border: 10px solid #727272 !important;
-}  
-
-.green-dot{
-  background-color: #18ce00 !important;
+.node-content-orange {
+  border: 5px solid #FFE600 !important;
 }
 
-.orange-dot{
-  background-color: #ffbb00 !important;
+.node-content-green {
+  border: 5px solid #34C768 !important;
 }
 
-.red-dot{
+.node-content-mute {
+  border: 5px solid #727272 !important;
+}
+
+.green-dot {
+  background-color: #168736 !important;
+  color: #FFFFFF;
+}
+
+.orange-dot {
+  background-color: #FFE600 !important;
+}
+
+.red-dot {
   background-color: #ff0000 !important;
+  color: #FFFFFF;
+}
 
-
-}.no-dot{
+.no-dot {
   background-color: #727272 !important;
 }
 
-.counter{
-  height: 50px;
-  width: 50px;
+.counter {
+  height: 20px;
+  width: 20px;
   border-radius: 50%;
-  display:flex;
+  display: flex;
   margin-left: 60%;
-  margin-top: -25%;
-  font-size: 2rem;
+  margin-top: -34%;
+  font-size: 0.9rem;
   position: absolute;
-  color: white;
   align-items: center;
   justify-content: center;
 }
 
-.photo{
+.photo {
   border-radius: 50%;
-  height: 203px;  
+  height: 100px;
+  width: 100px;
   background-repeat: no-repeat;
-  background-position: center; 
-  background-size: cover; 
+  background-position: center;
+  background-size: cover;
+  align-self: center;
+  margin-left: 18px;
 }
 
 :host /deep/ .p-organizationchart-selectable-node {
-border: 1px solid #ffffff;
-border-radius: 20px;
-background: #23232F;
-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border: 1px solid #23232F;
+  border-radius: 20px;
+  background: #23232F;
+  box-shadow: 0px 0px 5px 0px rgba(255, 230, 0, 0.65);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+:host /deep/ .p-organizationchart-table tbody tr td {
+  padding: 0px;
+  
 }
 
 :host /deep/ .p-organizationchart-table {
-  border-collapse: collapse  !important;
+  border-collapse: collapse !important;
 }
 
 :host /deep/ .p-organizationchart .p-organizationchart-line-top {
-  border-top: 1px solid #ffffff;
-  border-color: #ffffff;
+  border-top: 1px solid;
+  border-color: #FFE600;
 }
 
-:host /deep/ .p-organizationchart .p-organizationchart-line-left{
-  display: 1px solid #ffffff;
-  border-color: #ffffff;
+:host /deep/ .p-organizationchart .p-organizationchart-line-left {
+  display: 1px solid;
+  border-color: #FFE600;
 }
 
-:host /deep/ .p-organizationchart .p-organizationchart-node-content{
-  font-weight: 600;
+:host /deep/ .p-organizationchart .p-organizationchart-node-content {
+  font-weight: 1;
   color: #000000;
-  padding: 2rem;
+  border: #23232F !important ;
 }
 
-:host /deep/ .p-organizationchart .p-organizationchart-node-content .p-node-toggler{
-  border: 1px solid #ffffff;
+:host /deep/ .p-organizationchart .p-organizationchart-node-content .p-node-toggler {
   color: #000000;
   font-weight: 1000;
-  color: #FFFFFF;
+  color: #FFE600;
+  bottom: 0.25em;
+  background: fixed;
+  border: #23232F !important ;
 }
 
-:host / .p-organizationchart .p-organizationchart-node-content:hover {  
-    cursor: pointer;
-  }  
+:host / .p-organizationchart .p-organizationchart-node-content:hover {
+  cursor: grab;
+  border: #23232F ;
+}
 
-  :host /deep/ .p-organizationchart .p-organizationchart-line-down {  
-    height: 30px !important;  
-    border: #ffffff
-  }  
-  
-  :host /deep/ .node-content {  
-    text-align: center;  
-    border: 0px solid #b0c2d6;  
-  }  
-  
-.menu{
-  width: 12vw;
+:host /deep/ .p-organizationchart .p-organizationchart-line-down {
+  color: #FFE600;
+  background: #FFE600;
+}
+
+:host /deep/ .node-content {
+  text-align: center;
+}
+
+.menu {
   color: #ffffff;
-  background-color: #1b1b25;
-  margin-right:auto;
-  position: inherit;
-  left: 0px;
-  bottom: 0px;
-  z-index: 10;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-top: 40px;
 }
-.menu-item{
-  /* width: 15vh; */
+
+.menu-item {
   margin: 0.5vh;
-  padding: 0px;
-  display:flex;
-  align-items:center;
+  display: flex;
+  align-items: center;
 }
-p.menu-text{
+
+p.menu-text {
   display: inline-block;
   font-size: 1.5vh !important;
   margin: 0.5vh;
-  padding: 0px;
   width: max-content;
 }
