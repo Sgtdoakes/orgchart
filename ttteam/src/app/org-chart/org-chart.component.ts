@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { TreeNode } from 'primeng/api';  
 import { Counselor } from '../models/counselor.model';
 import { JsonService } from '../services/json.service';
-import {NodeService} from '../services/nodeservice';
+
   
 @Component({  
   selector: 'app-orgchart',  
@@ -28,9 +28,9 @@ export class OrgchartComponent implements OnInit {
             this.counselorNodes = [
                 {
                     label: "Ajay Samuel",
-                    data: {avatar: "/sites/PowerAutomate101/Shared%20Documents/ttteam/assets/fotos/AjaySamuel.jpg",
+                    data: {avatar: "assets/fotos/AjaySamuel.jpg",
                             name: "Ajay Samuel",
-                            email: "",
+                            email: "ajay.samuel@gds.ey.com",
                             rank: "Executive Director",
                         type: "person",
                         counselees: []},
@@ -61,7 +61,17 @@ export class OrgchartComponent implements OnInit {
                 return 0;
         }
     }
-}  
+
+    getLabel(label:string) {
+        switch(label){
+            case "EY":
+                return 'height:220px!important';
+            default:
+                return 'height:250px';
+        }
+    }
+}
+
 function counselorToTreeNode(counselor: Counselor) {    
     let counselorTreeNodes: TreeNode[] = [];
         

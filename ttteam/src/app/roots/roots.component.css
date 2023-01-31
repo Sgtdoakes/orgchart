@@ -1,0 +1,41 @@
+table.blueTable {
+    border: 1px solid #2E2E3C;
+    color: #ffffff;
+    background-color: #1b1b25;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+  }
+  
+  table.blueTable td, table.blueTable th {
+    border: 1px solid #2E2E3C;
+    padding: 3px 2px;
+  }
+
+  table.blueTable tbody td {
+    font-size: 13px;
+  }
+
+  table.blueTable tr:nth-child(even) {
+    background: #1b1b25;
+  }
+
+  table.blueTable thead {
+    background: #1b1b25;
+    border-bottom: 2px solid #2E2E3C;
+  }
+
+  table.blueTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-left: 2px solid #2E2E3C;
+  }
+
+  table.blueTable thead th:first-child {
+    border-left: none;
+  }
+  
+ .tableContainer {
+  padding-top: 70px;
+ }

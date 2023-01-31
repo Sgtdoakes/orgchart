@@ -1,34 +1,22 @@
-<div class="col-sm-12 container">
-  <header>
-    <div class="header">
-        <img alt="logo" class="logo"
-            src="https://discoverstatic.azureedge.net/discoversearch/AngularJS/images/EY-Logo.gif?bWLmRIkWdu-D7WvsNitEk5qrx-g2SN-Lz9wP-56RTDHPwTYcgm4sK32x8rYKNz-pFapkBafAAD9Sl_pXibGddehOmFi4">
-        <p class="headerTitle">TTTree</p>
-    </div>
-</header>  
+<div class="col-sm-12 container"> 
   <div class="menu">
     <div class="menu-item">
-      <p class="menu-text" style="font-weight: bold;">Color codes</p>
-    </div>
-    <div class="menu-item"><span class="green-reference-dot"></span>
+      <span class="green-reference-dot"></span>
       <p class="menu-text">Within range</p>
     </div>
-    <div class="menu-item"><span class="orange-reference-dot"></span>
+     <div class="menu-item"><span class="orange-reference-dot"></span>
       <p class="menu-text">Just above range (+1)</p>
     </div>
     <div class="menu-item"><span class="red-reference-dot"></span>
       <p class="menu-text">Well above range (+3)</p>
     </div>
-    <div class="menu-item">
-      <p class="menu-text">&nbsp;</p>
-    </div>
   </div>
-
   <p-organizationChart [value]="counselorNodes" selectionMode="single" [(selection)]="selectedNode"
     [preserveSpace]=false class="horizontalChart">
     <ng-template let-node pTemplate="default" class="horizontalNode">
       <div class="node-content row e"
-        style="width:140px !important; height: 250px !important; margin-top: -11px; margin-bottom: -11px;">
+        style="width:140px !important; height: 190px !important; margin-top: -11px; margin-bottom: 10px;"
+        [ngStyle]="{'height': getLabel(node.data.label)}">
         <div class="photo"
           [style.background-image]="!!node.data.avatar ? 'url(\'' + node.data.avatar + '\')' : 'url(\'' + 'assets/fotos/imagengenérica.jpg' + '\')'"
           [ngClass]="node.data.rank == 'Executive Director' ? 'node-content-mute' : getCountForRank(node.data.rank) == 0 && node.children.length == 0 ? 'node-content-mute' :

@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';  
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';  
 import { BrowserModule } from '@angular/platform-browser';  
 import {FormsModule} from '@angular/forms';
 import { HttpClientModule } from "@angular/common/http";  
@@ -10,16 +10,20 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { APP_INITIALIZER } from '@angular/core';
 import { environment } from '../environments/environment';
 import { JsonService } from './services/json.service';
-// import {NodeService} from './nodeservice';
 
 import {TreeModule} from 'primeng/tree';
 import {ToastModule} from 'primeng/toast';
 import {ButtonModule} from 'primeng/button';
+import { RootsComponent } from './roots/roots.component';
+import { RouterModule } from '@angular/router';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({  
   declarations: [  
     AppComponent,  
-    OrgchartComponent
+    OrgchartComponent,
+    RootsComponent,
+    HeaderComponent
   ],  
   imports: [  
     BrowserModule,
@@ -31,10 +35,14 @@ import {ButtonModule} from 'primeng/button';
     TreeModule,
     ToastModule,
     ButtonModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot([
+      {path: '', component: OrgchartComponent} ,
+      { path: 'roots', component: RootsComponent }
+    ])
   ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [
-    // NodeService,
     JsonService,
     {
       provide : APP_INITIALIZER,
